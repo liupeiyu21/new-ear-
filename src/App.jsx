@@ -1,6 +1,6 @@
 
 import './App.css'
-import Header from './pc-js/header'
+import Header from "./Pc-js/Header"
 
 function App() {
 
