@@ -10,6 +10,7 @@ import "../PcTop.css"
 function Header() {
     return(
         <>
+        <nav>
         <div className="pc-header">
             <p>世界中のイヤホン・ヘッドホンが試聴・買取・購入できる専門店</p>
             <div className="pc-category">
@@ -33,6 +34,7 @@ function Header() {
                 </div>
             </div>
         </div>
+        </nav>
         </>
     )
 }
