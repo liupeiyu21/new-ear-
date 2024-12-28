@@ -5,11 +5,17 @@ import { CiSearch } from "react-icons/ci";
 import { HiOutlineUser } from "react-icons/hi";
 import { TfiHeart } from "react-icons/tfi";
 import { BsCart } from "react-icons/bs";
+import { TbMessageReportFilled } from "react-icons/tb";
 import "../PcTop.css"
 
 function Header() {
     return(
         <>
+        <div className="pc-infor">
+               <TbMessageReportFilled className="infor-icon" />
+               <p>重要なお知らせ：</p>
+               <p className="pc-infor-p2">e☆イヤホン年末年始の営業に関しまして</p>
+        </div>
         <nav>
         <div className="pc-header">
             <p>世界中のイヤホン・ヘッドホンが試聴・買取・購入できる専門店</p>
@@ -17,6 +23,7 @@ function Header() {
                 <h1>
                     <img src={Logo} alt="サイトのlogoです。" />
                 </h1>
+               
                 <ul className="pc-category-item">
                     <li>新品</li>
                     <li>中古</li>
@@ -34,6 +41,14 @@ function Header() {
                 </div>
             </div>
         </div>
+        <ul className="pc-category-item2">
+                    <li>新品</li>
+                    <li>中古</li>
+                    <li>買取</li>
+                    <li>修理・自作</li>
+                    <li>カスタムIEM</li>
+                    <li>店舗一覧</li>
+                </ul>
         </nav>
         </>
     )
