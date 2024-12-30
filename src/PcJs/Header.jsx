@@ -25,12 +25,12 @@ function Header() {
                 </h1>
                
                 <ul className="pc-category-item">
-                    <li>新品</li>
-                    <li>中古</li>
-                    <li>買取</li>
-                    <li>修理・自作</li>
-                    <li>カスタムIEM</li>
-                    <li>店舗一覧</li>
+                    <li className="li">新品</li>
+                    <li className="li">中古</li>
+                    <li className="li">買取</li>
+                    <li className="li">修理・自作</li>
+                    <li className="li"> カスタムIEM</li>
+                    <li className="li">店舗一覧</li>
                 </ul>
                 <div className="pc-icon-item">
                     {/* <CiSearch className="search" style={{color:"red", fontSize:"48px"}} /> */}
@@ -42,12 +42,12 @@ function Header() {
             </div>
         </div>
         <ul className="pc-category-item2">
-                    <li>新品</li>
-                    <li>中古</li>
-                    <li>買取</li>
-                    <li>修理・自作</li>
-                    <li>カスタムIEM</li>
-                    <li>店舗一覧</li>
+                    <li className="li">新品</li>
+                    <li className="li">中古</li>
+                    <li className="li">買取</li>
+                    <li className="li">修理・自作</li>
+                    <li className="li">カスタムIEM</li>
+                    <li className="li">店舗一覧</li>
                 </ul>
         </nav>
         </>

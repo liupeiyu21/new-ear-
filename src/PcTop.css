@@ -103,6 +103,31 @@ h1{
     align-items:center
 }
 
+/* navのボタン背景の色変化 */
+.li{
+    position: relative;
+    padding: 5px 20px;
+    
+}
+.li::after{
+    content: "";
+    background-color: rgb(237, 228, 218);
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    border-radius: 50px 50px 50px 50px;
+   
+    transform: scale(0);
+}
+.li:hover::after{
+
+    transform: scale(1);
+    transition: transform .2s ease-in-out;
+}
+
 
 
 @media screen and (max-width: 1950px ) {
@@ -129,7 +154,7 @@ h1{
     nav{
         display: flex;
         flex-direction: column;
-        font-size: 16px;
+     
     }
   
 
