@@ -11,6 +11,7 @@ import "../PcTop.css"
 function Header() {
     return(
         <>
+        <div className="a">
         <div className="pc-infor">
                <TbMessageReportFilled className="infor-icon" />
                <p>重要なお知らせ：</p>
@@ -50,6 +51,7 @@ function Header() {
                     <li className="li">店舗一覧</li>
                 </ul>
         </nav>
+        </div>
         </>
     )
 }
