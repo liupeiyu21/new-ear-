@@ -105,29 +105,150 @@ h1 > img{
 .cart-icon{
     font-size: 45px;
 }
+
 /* navのボタン背景の色変化 */
+
+/* .li{
+    position: relative;
+    padding: 10px 30px; 
+    border-radius: 50px 50px 50px 50px; 
+    transition: background-color  .3s ease-in-out;  
+
+}
+.li:hover{
+    background-color: #F08300;
+    color:#efefef;
+} */
 .li{
     position: relative;
-    padding: 10px 30px;
-    
+    padding: 10px 30px; 
+   
 }
+
 .li::after{
     content: "";
-    background-color: rgb(237, 228, 218);
+    background-color: #F08300;
     position: absolute;
     width: 100%;
     height: 100%;
     top: 0;
     left: 0;
     z-index: -1;
+  
     border-radius: 50px 50px 50px 50px;
-   
+
     transform: scale(0);
 }
 .li:hover::after{
-
+   
     transform: scale(1);
     transition: transform .2s ease-in-out;
+}
+.li:hover{
+    color: #ffff;
+}
+/* navをhoverしたら、メニューを下に展開する */
+
+/* .pc-category-olds{
+    background-color: #FFF;
+    
+
+} */
+.pc-category-old{
+    /* position: absolute; */
+ 
+    /* top: 55px; */
+
+    padding: 15px;
+    position: absolute;
+    transform: scale(0);
+    left: 0;
+    top: 100%;
+    padding-left: 0;
+    border-top: 1px #fff solid;
+    letter-spacing: 0.4em;
+    background-color:#F08300 ;
+    /* margin: 20px; */
+    padding: 0 0 0 0px;
+    border-radius: 10px;
+    font-weight: normal;
+}
+.pc-category-old > li{
+    list-style-type: none;
+    padding: 5px 30px 5px 20px;
+
+}
+.old{
+    position: relative;
+
+}
+
+.old::before{
+    content: "";
+    width: 6px;
+    height: 6px;
+    border-top: 2px solid #fff;
+    border-left: 2px solid #fff;
+    position: absolute;
+    right: 15px;
+    transform: rotate(135deg);
+    top: calc(50% - 3px);
+}
+.old:hover{
+    background-color: #e9b97f;
+    border-radius: 10px;
+}
+.li:hover .pc-category-old{
+    transform: scale(1);
+}
+.q{
+    width: 150px;
+    white-space: wrap;
+    text-align: center;
+}
+.q > p{
+    margin: 0;
+    padding-left: 10px;
+}
+.q >img{
+    width: 50%;
+}
+.pc-catagory-old-wireless > h2{
+    position: absolute;
+    left: 5px;
+    color: black;
+    font-weight: bold;
+}
+.pc-catagory-old-wireless{
+    position: absolute;
+    left: 100%;
+    top: 0;
+    width: 650px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    font-size: 12px;
+    background-color: #e9b97f;
+    height: 298px;
+    border-radius: 10px;
+    transform: scale(0);
+}
+.old-wireles:hover .pc-catagory-old-wireless{
+    transform: scale(1);
+}
+.w{
+    top: -33px;
+}
+.old-wired:hover .pc-catagory-old-wireless{
+    transform: scale(1);
+}
+
+
+.pc-catagory-old-wireless1,
+.pc-catagory-old-wireless2,
+.pc-catagory-old-wireless3,
+.pc-catagory-old-wireless4{
+ padding-top: 50px;
 }
 
 
@@ -156,7 +277,41 @@ h1 > img{
     nav{
         display: flex;
         flex-direction: column;
+    }
+    /* navをhoverしたら、メニューを下に展開する */
+    
+    .pc-category-old2{
+        /* position: absolute; */
      
+        /* top: 55px; */
+        padding: 15px;
+        position: absolute;
+        transform: scale(0);
+        left: 0;
+        top: 100%;
+        padding-left: 0;
+       
+        letter-spacing: 0.1em;
+        background-color:#F08300 ;
+        /* margin: 20px; */
+        padding: 10px 20px;
+        border-radius: 10px;
+        font-weight: normal;
+    }
+    .pc-category-old2 > li{
+        list-style-type: none;
+    }
+    .pc-category-item2::before{
+        content: "";
+        width: 100%;
+        height: 1px;
+        left: 0;
+        top: 0;
+        background-color: #fff;
+        position: absolute;
+    }
+    .li:hover .pc-category-old2{
+        transform: scale(1);
     }
   
 
