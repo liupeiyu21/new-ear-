@@ -172,6 +172,7 @@ h1 > img{
     padding: 0 0 0 0px;
     border-radius: 10px;
     font-weight: normal;
+    z-index: 1000;
 }
 .pc-category-old > li{
     list-style-type: none;
@@ -232,6 +233,7 @@ h1 > img{
     height: 298px;
     border-radius: 10px;
     transform: scale(0);
+   
 }
 .old-wireles:hover .pc-catagory-old-wireless{
     transform: scale(1);
@@ -266,7 +268,7 @@ h1 > img{
     right: 0;
     width: 100%;
     height: 100%;
-    
+    z-index: 1000;
 
 }
 .form-search-icon{
@@ -295,8 +297,40 @@ h1 > img{
   
 }
 
+/* FastViewのCSS */
+.fastview-swiper{
+    padding-top: 30px;
+}
+.fastview-swiper > .swiper > .swiper-button-next{
+    background-color: #F08300;
+    opacity: 0.8;
+    padding: 10px 20px;
+    border-radius: 50%;
+    color: #fff;
+  }
+  .fastview-swiper > .swiper > .swiper-button-prev{
+    background-color: #F08300;
+    opacity: 0.8;
+    padding: 10px 20px;
+    border-radius: 50%;
+    color: #fff;
+  }
+  .fastview-swiper > .swiper > .swiper-pagination {
+    --swiper-theme-color: #F08300;
+   
+  }
+  .fastview-swiper > .swiper > .swiper-pagination > span{
+    padding: 5px;
 
-
+  }
+  .fastview-swiper > .swiper > .swiper-wrapper > .swiper-slide > img{
+    width: 100%;
+  }
+  .fastview-swiper > .swiper > .swiper-wrapper > .swiper-slide{
+    
+  }
+  
+  
 
 
 @media screen and (max-width: 1300px ) {
