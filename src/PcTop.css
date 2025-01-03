@@ -281,6 +281,8 @@ h1 > img{
     top: 20%;
     border: 10px #F08300 solid;
     border-radius: 10px;
+    background-color: aliceblue;
+    
 }
 
 .form-select{
@@ -290,6 +292,7 @@ h1 > img{
 .form-input{
     padding: 10px 20px; 
     margin-right: 50px;
+   
 }
 
 .modal-content{
@@ -300,6 +303,8 @@ h1 > img{
 /* FastViewのCSS */
 .fastview-swiper{
     padding-top: 30px;
+    padding-bottom: 30px;
+   
 }
 .fastview-swiper > .swiper > .swiper-button-next{
     background-color: #F08300;
@@ -315,8 +320,9 @@ h1 > img{
     border-radius: 50%;
     color: #fff;
   }
+ 
   .fastview-swiper > .swiper > .swiper-pagination {
-    --swiper-theme-color: #F08300;
+    --swiper-theme-color: #F08300; 
    
   }
   .fastview-swiper > .swiper > .swiper-pagination > span{
@@ -326,8 +332,15 @@ h1 > img{
   .fastview-swiper > .swiper > .swiper-wrapper > .swiper-slide > img{
     width: 100%;
   }
-  .fastview-swiper > .swiper > .swiper-wrapper > .swiper-slide{
+
     
+  
+
+
+  /* トップページ　BannerのCSS */
+  
+  .banner-swiper {
+    text-align: center;
   }
   
   

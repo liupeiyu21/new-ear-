@@ -18,6 +18,7 @@ import { Navigation, Pagination, Mousewheel, Keyboard } from 'swiper/modules';
 export default function FastView() {
   return (
     <>
+   
     <div className='fastview-swiper'>
       <Swiper
         modules={[Navigation, Pagination, Mousewheel, Keyboard]}
@@ -76,6 +77,7 @@ export default function FastView() {
         </SwiperSlide>
       </Swiper>
     </div>
+
     </>
   );
 }
