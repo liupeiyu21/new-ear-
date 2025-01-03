@@ -8,8 +8,15 @@ import { TfiHeart } from "react-icons/tfi";
 import { BsCart } from "react-icons/bs";
 import { TbMessageReportFilled } from "react-icons/tb";
 import "../PcTop.css"
+import { useState } from "react";
 
 function Header() {
+  const[ isOpen, setIsOpen] = useState(false);
+ 
+  const openModal = () => setIsOpen(true);
+  const closeModal = () => setIsOpen(false);
+
+
     return(
         <>
         <div className="a">
@@ -184,7 +191,10 @@ function Header() {
                 </ul>
                 <div className="pc-icon-item">
                     {/* <CiSearch className="search" style={{color:"red", fontSize:"48px"}} /> */}
-                    <CiSearch className="search-icon" />
+                    <CiSearch 
+                    className="search-icon"
+                    onClick={openModal}
+                    />
                     <HiOutlineUser className="login-icon" />
                     <TfiHeart className="favorice-icon" />
                     <BsCart className="cart-icon" />
@@ -222,6 +232,33 @@ function Header() {
                 </ul>
         </nav>
         </div>
+
+
+
+
+        {isOpen && (
+          
+          <div className="modal-overlay" onClick={closeModal}>
+              <form action="" 
+              className="form-search-icon"
+              onClick={(e) => e.stopPropagation()}
+              >
+                <select name="" id="" className="form-select">
+                  <option value="">すべて</option>
+                  <option value="">新品</option>
+                  <option value="">買取</option>
+                </select>
+      
+                <input 
+                type="text" 
+                placeholder="キーワード探す"
+                className="form-input"
+                />
+              </form>
+    
+      </div>
+        )}
+      
         </>
     )
 }
