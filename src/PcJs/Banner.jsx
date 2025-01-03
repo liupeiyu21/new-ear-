@@ -13,6 +13,7 @@ import Banner4 from "/pc-top-banner4.png"
 import Banner5 from "/pc-top-banner5.png"
 import Banner6 from "/pc-top-banner6.png"
 
+import "../PcTop.css"
 // import required modules
 
 import { Autoplay, Navigation,  Mousewheel, Keyboard } from 'swiper/modules';
@@ -33,13 +34,17 @@ export default function Banner() {
          modules={[Navigation,  Mousewheel, Keyboard, Autoplay]}
         className="mySwiper"
         breakpoints={{
+            375:{
+                slidesPerView:2,
+                spaceBetween:10,
+            },
             640:{
-                slidesPerView:1,
+                slidesPerView:3,
                 spaceBetween:10,
             },
             768: {
-                slidesPerView:2,
-                spaceBetween:0,
+                slidesPerView:3,
+                spaceBetween:10,
             },
             1024:{
                 slidesPerView:6,

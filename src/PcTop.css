@@ -334,15 +334,55 @@ h1 > img{
   }
 
     
-  
-
 
   /* トップページ　BannerのCSS */
   
   .banner-swiper {
     text-align: center;
   }
-  
+  .banner-swiper > .swiper > .swiper-slide > img{
+    width: 100%;
+  }
+  /* .banner-swiper > .swiper-wrapper > .swiper > .swiper-slide{
+    margin-left: 15px;
+  } */
+
+
+
+  /* トップページ最近チェック商品のアイテム */
+  .recentlycheck{
+    margin-top: 50px;
+    padding-left: 5%;
+    padding-right: 5%;
+  }
+  .ca-span{
+    width: 9%;
+    padding-right:15px;
+  }
+.recentlycheck > .swiper{
+    text-align: center;
+}
+.recentlycheck > .swiper > .swiper-wrapper{
+    padding: 5px 0;
+}
+.recentlycheck > .swiper > .swiper-wrapper > .swiper-slide{
+    padding: 10px;
+    border-radius: 10px;
+}
+.recentlycheck > .swiper > .swiper-wrapper > .swiper-slide:hover{
+    /* color: #F08300; */
+    box-shadow: 0 2px 2px 4px #F08300 ;
+    /* border: 1px #F08300 solid; */
+}
+.check-img{
+    width: 100%;
+    border-radius: 10px;
+}
+.check-brand{
+    text-align: left;
+    margin-top: 0;
+    font-weight: bold;
+}
   
 
 
