@@ -5,6 +5,7 @@ import FastView from "./PcJs/FastView"
 import Banner from './PcJs/Banner'
 import Recentlycheck from "./PcJs/Recentlycheck"
 import Products from './PcJs/Products'
+import HighPrice from './PcJs/HighPrice'
 
 function App() {
 
@@ -16,6 +17,7 @@ function App() {
       <Banner />
       <Recentlycheck />
       <Products />
+      <HighPrice />
     </>
   )
 }

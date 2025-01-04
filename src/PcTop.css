@@ -252,6 +252,7 @@ h1 > img{
 .pc-catagory-old-wireless4{
  padding-top: 50px;
 }
+
 /* トップページのnavの検索アイコンをクリックしたら、出てくる */
 .search-icon:hover{
     background-color: #efefef;
@@ -357,6 +358,7 @@ h1 > img{
   }
   .recentlycheck > h2{
     border-top: 1px #efefef solid;
+    border-bottom: 1px #efefef solid;
     margin: 0;
     padding: 30px 0;
   }
@@ -368,7 +370,7 @@ h1 > img{
     text-align: center;
 }
 .recentlycheck > .swiper > .swiper-wrapper{
-    padding: 5px 0;
+    padding: 20px 0;
 }
 .recentlycheck > .swiper > .swiper-wrapper > .swiper-slide{
     padding: 10px;
@@ -437,8 +439,7 @@ h1 > img{
   .heading{
     display: flex;
     margin-bottom: 30px;
-    border-top: 1px #efefef solid;
-    /* border-bottom: 1px #969292 solid; */
+   
   }
   .heading > h2{
     cursor: pointer;
@@ -467,6 +468,8 @@ h1 > img{
   .container-more{
     display: flex;
     justify-content: space-between;
+    border-top: 1px #efefef solid;
+    border-bottom: 1px #efefef solid;
   }
   .container-more > p{
     padding-top: 90px;
@@ -474,6 +477,9 @@ h1 > img{
     font-weight: bold;
     cursor: pointer;
     color: #F08300;
+  }
+  .item-list{
+    padding-top: 30px;
   }
   .item-card{
     margin-bottom: 30px;
@@ -530,6 +536,58 @@ h1 > img{
     color: #de5d50;
   }
  
+
+/* 高額買取中は最近チェック　同CSSを共用している */
+.heighprice{
+    padding-left: 5%;
+    padding-right: 5%;
+}
+.heighprice > .swiper > .swiper-button-prev{
+    background-color: #9b9794;
+    padding: 10px 20px;
+    border-radius: 50%;
+    color: #F08300; 
+}
+.heighprice > .swiper > .swiper-button-next{
+    background-color: #9b9794;
+    padding: 10px 20px;
+    border-radius: 50%;
+    color: #F08300; 
+}
+.heighprice-status{
+    width: 50%;
+    background-color: #F08300;
+    color: #fff;
+    text-align: center
+}
+.heighprice > .swiper > .swiper-wrapper > .swiper-slide:hover{
+    /* color: #F08300; */
+    box-shadow: 0 2px 2px 4px #F08300 ;
+    /* border: 1px #F08300 solid; */
+}
+.heighprice > .swiper{
+    text-align: center;
+}
+.heighprice > .swiper > .swiper-wrapper{
+    padding: 20px 0;
+}
+.heighprice > .swiper > .swiper-wrapper > .swiper-slide{
+    padding: 10px;
+    border-radius: 10px;
+}
+.heigh-more{
+    display: flex;
+    justify-content: space-between;
+    border-top: 1px #efefef solid;
+    border-bottom: 1px #efefef solid;
+}
+.heigh-more > p{
+    padding-top: 90px;
+    font-size: 18px;
+    font-weight: bold;
+    cursor: pointer;
+    color: #F08300;
+}
 
 
 @media screen and (max-width: 1300px ) {
