@@ -355,6 +355,11 @@ h1 > img{
     padding-left: 5%;
     padding-right: 5%;
   }
+  .recentlycheck > h2{
+    border-top: 1px #efefef solid;
+    margin: 0;
+    padding: 30px 0;
+  }
   .ca-span{
     width: 9%;
     padding-right:15px;
@@ -374,6 +379,18 @@ h1 > img{
     box-shadow: 0 2px 2px 4px #F08300 ;
     /* border: 1px #F08300 solid; */
 }
+.recentlycheck > .swiper > .swiper-button-prev{
+    background-color: #9b9794;
+    padding: 10px 20px;
+    border-radius: 50%;
+    color: #F08300; 
+}
+.recentlycheck > .swiper > .swiper-button-next{
+    background-color: #9b9794;
+    padding: 10px 20px;
+    border-radius: 50%;
+    color: #F08300; 
+}
 .check-img{
     width: 100%;
     border-radius: 10px;
@@ -381,9 +398,138 @@ h1 > img{
 .check-brand{
     text-align: left;
     margin-top: 0;
+    margin-bottom: 0;
     font-weight: bold;
 }
-  
+.check-name{
+    text-align: left;
+    font-size: 14px;
+    margin-top: 0;
+    color: #b9b4b4;
+}
+.check-status{
+    background-color: #295c8f;
+    width: 15%;
+    color: #fff;
+    font-size: 12px;
+    margin-bottom: 0;
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+}
+.check-price{
+    text-align: left;
+    margin-top: 0;
+    font-size: 20px;
+    font-weight: bold;
+    color: #de5d50;
+}
+.check-tax{
+    font-size: 10px;
+}
+
+
+/* 新着アイテム　中古アイテム　ランキングアイテム */
+  .container{
+    padding-left: 5%;
+    padding-right: 5%;
+  }
+  .heading{
+    display: flex;
+    margin-bottom: 30px;
+    border-top: 1px #efefef solid;
+    /* border-bottom: 1px #969292 solid; */
+  }
+  .heading > h2{
+    cursor: pointer;
+    padding-top: 70px;
+    margin-right: 50px;
+    margin-top: 30px;
+    margin-bottom: 0;
+    margin-left: 20px;
+  }
+  .heading > h2.active{
+    color: #F08300;
+    box-shadow: 0 2px 0 0 #F08300;
+  }
+  .item-list{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 2.5%;
+  }
+ .container-icon{
+    padding-top: 30px;
+ }
+  .heading-icon{
+    width: 100%;
+  }
+  .container-more{
+    display: flex;
+    justify-content: space-between;
+  }
+  .container-more > p{
+    padding-top: 90px;
+    font-size: 18px;
+    font-weight: bold;
+    cursor: pointer;
+    color: #F08300;
+  }
+  .item-card{
+    margin-bottom: 30px;
+    padding: 5px 10px;
+  }
+
+  .item-card:hover{
+    box-shadow: 0 2px 2px 4px #F08300 ;
+    border-radius: 10px;
+  }
+  .item-card > img{
+    border-radius: 10px;
+  }
+  .products-brand{
+    text-align: left;
+    margin-top: 0;
+    margin-bottom: 0;
+    font-weight: bold;
+  }
+  .products-name{
+    font-size: 14px;
+    margin-top: 0;
+    color: #b9b4b4;
+  }
+  .statusNew{
+    background-color: #295c8f;
+    width: 17%;
+    text-align: center;
+    color: #fff;
+    font-size: 12px;
+    margin-bottom: 0;
+  }
+  .statusUsed{
+    background-color: #F08300;
+    width: 17%;
+    text-align: center;
+    color: #fff;
+    font-size: 12px;
+    margin-bottom: 0;
+  }
+  .statusRanking{
+    background-color: #e53935;
+    width: 17%;
+    text-align: center;
+    color: #fff;
+    font-size: 12px;
+    margin-bottom: 0;
+  }
+  .products-price{
+    text-align: left;
+    margin-top: 0;
+    font-size: 20px;
+    font-weight: bold;
+    color: #de5d50;
+  }
+ 
 
 
 @media screen and (max-width: 1300px ) {

@@ -48,7 +48,7 @@ function Recentlycheck() {
                     <p className="check-brand">ブランド名</p>
                     <p className="check-name">商品の名前</p>
                     <p className="check-status">新品</p>
-                    <p className="check-price">¥500,000</p>      
+                    <p className="check-price">¥500,000<span className="check-tax">税込</span></p>      
                 </SwiperSlide>
             ))
 

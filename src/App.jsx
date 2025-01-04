@@ -4,6 +4,7 @@ import Header from "./PcJs/Header"
 import FastView from "./PcJs/FastView"
 import Banner from './PcJs/Banner'
 import Recentlycheck from "./PcJs/Recentlycheck"
+import Products from './PcJs/Products'
 
 function App() {
 
@@ -14,6 +15,7 @@ function App() {
       <FastView />
       <Banner />
       <Recentlycheck />
+      <Products />
     </>
   )
 }

@@ -1,0 +1,225 @@
+{
+    "Products" : {
+        "New": [
+            {   
+                "img": "/New-products.png",
+                "brand": "ブランド名", 
+                "name": "商品の名前", 
+                "status": "新着",
+                "price": "100000"
+            },
+            {   
+                "img": "/New-products.png",
+                "brand": "ブランド名", 
+                "name": "商品の名前", 
+                "status": "新着",
+                "price": "200000"
+            },
+            { 
+                "img": "/New-products.png",
+                "brand": "ブランド名", 
+                "name": "商品の名前", 
+                "status": "新着",
+                "price": "300000"
+            },
+            { 
+                "img": "/New-products.png",
+                "brand": "ブランド名", 
+                "name": "商品の名前", 
+                "status": "新着",
+                "price": "400000"
+            },
+            { 
+                "img": "/New-products.png",
+                "brand": "ブランド名", 
+                "name": "商品の名前", 
+                "status": "新着",
+                "price": "500000"
+            },
+            { 
+                "img": "/New-products.png",
+                "brand": "ブランド名", 
+                "name": "商品の名前", 
+                "status": "新着",
+                "price": "600000"
+            },
+            { 
+                "img": "/New-products.png",
+                "brand": "ブランド名", 
+                "name": "商品の名前", 
+                "status": "新着",
+                "price": "700000"
+            },
+            { 
+                "img": "/New-products.png",
+                "brand": "ブランド名", 
+                "name": "商品の名前", 
+                "status": "新着",
+                "price": "800000"
+            },
+            { 
+                "img": "/New-products.png",
+                "brand": "ブランド名", 
+                "name": "商品の名前", 
+                "status": "新着",
+                "price": "900000"
+            },
+            { 
+                "img": "/New-products.png",
+                "brand": "ブランド名", 
+                "name": "商品の名前", 
+                "status": "新着",
+                "price": "100000"
+            }
+     
+        ],
+        "Old": [
+           
+            { 
+                "img": "/Old-products.png",
+                "brand": "ブランド名", 
+                "name": "商品の名前", 
+                "status": "中古",
+                "price": "120000"
+            },
+            { 
+                "img": "/Old-products.png",
+                "brand": "ブランド名", 
+                "name": "商品の名前", 
+                "status": "中古",
+                "price": "110000"
+            },
+            { 
+                "img": "/Old-products.png",
+                "brand": "ブランド名", 
+                "name": "商品の名前", 
+                "status": "中古",
+                "price": "100000"
+            },
+            { 
+                "img": "/Old-products.png",
+                "brand": "ブランド名", 
+                "name": "商品の名前", 
+                "status": "中古",
+                "price": "90000"
+            },
+            { 
+                "img": "/Old-products.png",
+                "brand": "ブランド名", 
+                "name": "商品の名前", 
+                "status": "中古",
+                "price": "80000"
+            },
+            { 
+                "img": "/Old-products.png",
+                "brand": "ブランド名", 
+                "name": "商品の名前", 
+                "status": "中古",
+                "price": "70000"
+            },
+            { 
+                "img": "/Old-products.png",
+                "brand": "ブランド名", 
+                "name": "商品の名前", 
+                "status": "中古",
+                "price": "60000"
+            },
+            { 
+                "img": "/Old-products.png",
+                "brand": "ブランド名", 
+                "name": "商品の名前", 
+                "status": "中古",
+                "price": "50000"
+            },
+            { 
+                "img": "/Old-products.png",
+                "brand": "ブランド名", 
+                "name": "商品の名前", 
+                "status": "中古",
+                "price": "40000"
+            },
+            { 
+                "img": "/Old-products.png",
+                "brand": "ブランド名", 
+                "name": "商品の名前", 
+                "status": "中古",
+                "price": "30000"
+            }
+         
+        ],
+        "Ranking": [
+            
+            { 
+               "img": "/Rand-products.png",
+                "brand": "ブランド名", 
+                "name": "商品の名前", 
+                "status": "1位",
+                "price": "10000"
+            },
+            { 
+              "img": "/Rand-products.png",
+                "brand": "ブランド名", 
+                "name": "商品の名前", 
+                "status": "2位",
+                "price": "10000"
+            },
+            { 
+                "img": "/Rand-products.png",
+                "brand": "ブランド名", 
+                "name": "商品の名前", 
+                "status": "3位",
+                "price": "10000"
+            },
+            { 
+               "img": "/Rand-products.png",
+                "brand": "ブランド名", 
+                "name": "商品の名前", 
+                "status": "4位",
+                "price": "10000"
+            },
+            { 
+               "img": "/Rand-products.png",
+                "brand": "ブランド名", 
+                "name": "商品の名前", 
+                "status": "5位",
+                "price": "10000"
+            },
+            { 
+                "img": "/Rand-products.png",
+                "brand": "ブランド名", 
+                "name": "商品の名前", 
+                "status": "6位",
+                "price": "10000"
+            },
+            { 
+               "img": "/Rand-products.png",
+                "brand": "ブランド名", 
+                "name": "商品の名前", 
+                "status": "7位",
+                "price": "10000"
+            },
+            { 
+                "img": "/Rand-products.png",
+                "brand": "ブランド名", 
+                "name": "商品の名前", 
+                "status": "8位",
+                "price": "10000"
+            },
+            { 
+               "img": "/Rand-products.png",
+                "brand": "ブランド名", 
+                "name": "商品の名前", 
+                "status": "9位",
+                "price": "10000"
+            },
+            { 
+                "img": "/Rand-products.png",
+                "brand": "ブランド名", 
+                "name": "商品の名前", 
+                "status": "10位",
+                "price": "10000"
+            }
+     
+        ]
+    }
+}
