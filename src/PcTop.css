@@ -815,6 +815,51 @@ h1 > img{
     margin-bottom: 50px;
 }
 
+
+
+/* new　お知らせ　 */
+.news-content{
+
+    /* margin-left: 430px; */
+    border: 4px #707070 solid;
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+   margin-right: 5%;
+   margin-left: 5%;
+}
+.news{
+    width: 50%;
+    padding-bottom: 5px;
+    text-align: center
+}
+.news > p{
+    margin-right: 40px;
+    padding:  50px 0;
+    font-size: 16px;
+}
+.news > h2{
+    margin-right: 40px;
+}
+.news > p > a {
+    text-decoration: none;
+    margin-left: 20px;
+    text-align: left;
+}
+.news-notice{
+    border-right:4px #707070 solid ;
+}
+.news > button{
+    display: block;
+    margin: 0 40px 20px auto;
+    padding: 10px;
+    font-size: 20px;
+    color: #F08300;
+    background-color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
 @media screen and (max-width: 1300px ) {
     .pc-category-item{
         display: none;

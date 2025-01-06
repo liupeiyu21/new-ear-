@@ -11,6 +11,8 @@ import StaffReview2 from './PcJs/StaffReview2'
 import UsersReview from './PcJs/UsersReview/UsersReview'
 import Recommendation from './PcJs/ Recommendation'
 import ReadingItem from './PcJs/ReadingItem'
+import News from './PcJs/News'
+
 
 function App() {
 
@@ -29,7 +31,7 @@ function App() {
       {/* </div> */}
       <ReadingItem />
       <Recommendation />
-   
+      <News />
      
     </>
   )
