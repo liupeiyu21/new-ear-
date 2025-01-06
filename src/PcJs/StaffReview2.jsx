@@ -1,5 +1,6 @@
 import { useState } from "react";
 import StaffReviewData from "../data/StaffReview.json";
+import StaffIcon from "/top-staff.png"
 
 function StaffReview2() {
     
@@ -9,7 +10,9 @@ function StaffReview2() {
     return(
         <>
         <div className="staff-review-contents">
-            <h2>スタッフレビュー</h2>
+            <div className="staff-title">
+            <div className="staff-title">
+            <h2><span ><img className="staff-span" src={StaffIcon} alt="キャラクター" /></span>スタッフレビュー</h2>
             <div className="staff-review-category">
                 <span 
                 className={selectReview === "NewReview" ? "review" : ""}
@@ -21,6 +24,10 @@ function StaffReview2() {
                 onClick={() => setSelectReview("Popularity")}
                 >
                 人気</span>
+                
+            </div>
+            </div>
+            <p>もっと見る</p>
             </div>
             <div className="review-list">
                 {reviewList.map((review, index) => (
@@ -41,9 +48,9 @@ function StaffReview2() {
                 ))
                 }
             </div>
-            <div className="staff-btns">
+            {/* <div className="staff-btns">
             <button className="staff-review-btn">もっと見る</button>
-            </div>
+            </div> */}
         </div>
         </>   
     )

@@ -590,8 +590,26 @@ h1 > img{
 }
 
 /* staffReview　スタッフのレビュー文 */
+.staff-review-contents{
+    padding-left: 5%;
+    padding-right: 5%;
+    
+}
+.staff-title{
+    display: flex;
+    justify-content: space-between;
+    border-top: 1px #efefef solid;
+    border-bottom: 1px #efefef solid;
+}
+.staff-title > p{
+    padding-top: 130px;
+    margin-bottom: 0;
+    color: #F08300;
+    font-size: 18px;
+}
 .review-list{
     display: flex;
+    /* justify-content: space-between; */
     gap: 1%;
     margin-top: 50px;
 }
@@ -599,15 +617,22 @@ h1 > img{
     white-space: normal;
     width: 290px;
 }
-.staff-review-contents > h2 {
-    text-align: center;
+.staff-title{
+    display: flex;
 }
+/* .staff-review-contents > h2 {
+    text-align: center;
+} */
 
-.staff-review-category{
+/* .staff-review-category{
     text-align: center;
-}
+} */
+ .staff-review-category{
+    padding-top: 140px;
+    margin-left: 40px;
+ }
 .staff-review-category > span{
-    margin: 0 40px;
+    margin: 0 30px;
 }
 .review{
     color: #F08300;
@@ -617,7 +642,7 @@ h1 > img{
     border-radius: 10px;
 }
 .review-card{
-    padding: 30px 20px;
+    padding: 30px 10px;
     border: 1px rgba(0, 0, 0, 0.15) solid;
     border-radius: 10px;
     box-shadow: 0 10px 10px rgba(0, 0, 0, 0.15);
@@ -636,11 +661,28 @@ h1 > img{
 /* User review　ユーザーのレビュー文です */
 .users-list{
     display: flex;
-    flex-wrap: wrap;
+    justify-content: space-between;
     gap: 1%;
+    padding: 0 5%;
+}
+.users-title{
+    display: flex;
+    justify-content: space-between;
+    border-top: 1px #efefef solid;
+    border-bottom: 1px #efefef solid;
+    margin-top: 50px;
+    margin-bottom: 30px;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+.users-title  > p{
+    padding-right: 5%;
+    font-size: 18px;
+    color: #F08300;
+    padding-top: 100px;
 }
 .users-card{
-    padding: 30px 20px;
+    padding: 30px 10px;
     border: 1px rgba(0, 0, 0, 0.15) solid;
     border-radius: 10px;
     box-shadow: 0 10px 10px rgba(0, 0, 0, 0.15);
@@ -650,8 +692,8 @@ h1 > img{
     border-radius: 10px;
 }
 .users-so{
-    margin-bottom: 83px;
-    text-align: center;
+    margin-bottom: 30px;
+    padding-left: 5%;
 }
 .users-btns{
     text-align: center;
@@ -668,6 +710,110 @@ h1 > img{
     font-size: 24px;
 }
 
+/* e☆イヤホンの読みもの！ */
+.reading-item{
+    padding-left: 5%;
+    padding-right: 5%;
+
+}
+.reading-more{
+    display: flex;
+    justify-content: space-between;
+    border-top: 1px #efefef solid;
+    border-bottom: 1px #efefef solid;
+    margin-top: 50px;
+}
+.reading-more > p{
+    padding-top: 140px;
+    font-size: 18px;
+    color: #F08300;
+}
+.reading-item > .swiper > .swiper-wrapper > .img{
+    width: 100%;
+    border-radius: 10px;
+}
+
+.reading-item > .swiper > .swiper-button-prev{
+    background-color: #9b9794;
+    padding: 10px 20px;
+    border-radius: 50%;
+    color: #F08300; 
+}
+.reading-item > .swiper > .swiper-button-next{
+    background-color: #9b9794;
+    padding: 10px 20px;
+    border-radius: 50%;
+    color: #F08300; 
+}
+.reading-item> .swiper > .swiper-wrapper > .swiper-slide:hover{
+    /* color: #F08300; */
+    box-shadow: 0 2px 2px 4px #F08300 ;
+    /* border: 1px #F08300 solid; */
+}
+/* .reading-item> .swiper{
+    text-align: center;
+} */
+.reading-item > .swiper > .swiper-wrapper{
+    padding: 20px 0;
+}
+.reading-item > .swiper > .swiper-wrapper > .swiper-slide{
+    padding: 10px;
+    border-radius: 10px;
+}
+
+
+
+/* recommendation おすすめ読み物 */ 
+
+.recom{
+    background-color: #FCF9E8;
+           
+    margin-top: 100px;  
+}
+.recom-tile{
+    padding-left: 5%;
+    text-align: center;
+    padding-top: 30px;
+}
+.ear-span{
+    padding-right: 15px;
+}
+.recom > div{
+    margin: 0 3%;
+}
+.recom-content{
+    display: flex;
+    justify-content: space-between;
+}
+
+/* .recom-img > img{
+    width: 100%;
+} */
+ .recom-img{
+    width: 48%;
+ }
+ .recom-img img{
+    width: 100%;
+ }
+.recom-img > p{
+    margin: 0;
+
+    text-align: left;
+    background-color: #fff;
+    padding: 0 10px 30px 0;
+    font-size: 14px;
+}
+.recom-imgs{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+.recom-imgs img{
+    width: 30%;
+}
+.recom > h2{
+    margin-bottom: 50px;
+}
 
 @media screen and (max-width: 1300px ) {
     .pc-category-item{

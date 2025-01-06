@@ -24,9 +24,58 @@
                 "icon":"/pc-top-stafficon.png",
                 "staffname":"staff名前",
                 "address":"@e☆イヤホン 店舗住所"
+            },
+            {
+                "img": "/pc-top-staffreview.png",
+                "brand": "ブランド名",
+                "name": "商品の名前",
+                "category1": "カテゴリ",
+                "category2": "カテゴリ",
+                "title": "レビュー文の見出し",
+                "sentence": "スタッフのレビュー文",
+                "icon":"/pc-top-stafficon.png",
+                "staffname":"staff名前",
+                "address":"@e☆イヤホン 店舗住所"
+            },
+            {
+                "img": "/pc-top-staffreview.png",
+                "brand": "ブランド名",
+                "name": "商品の名前",
+                "category1": "カテゴリ",
+                "category2": "カテゴリ",
+                "title": "レビュー文の見出し",
+                "sentence": "スタッフのレビュー文",
+                "icon":"/pc-top-stafficon.png",
+                "staffname":"staff名前",
+                "address":"@e☆イヤホン 店舗住所"
             }
+
         ],
         "Popularity": [
+            {
+                "img": "/pc-top-staffpop.png",
+                "brand": "Jomo Audio",
+                "name": "Nautilus(Universal Fit)",
+                "category1": "ロッグ",
+                "category2": "ジャズ",
+                "title": "海底のように深く、余韻のあるサウンド",
+                "sentence": " スチームパンクデザインのおしゃれなイヤホンが登場しました。金メッキが施された真鍮ボディで、片側約...",
+                "icon":"/pc-top-staffpopicon.png",
+                "staffname":"タナトス",
+                "address":"@e☆イヤホン 秋葉原店"
+            },
+            {
+                "img": "/pc-top-staffpop.png",
+                "brand": "ブランド名",
+                "name": "商品の名前",
+                "category1": "カテゴリ",
+                "category2": "カテゴリ",
+                "title": "レビュー文の見出し",
+                "sentence": "スタッフのレビュー文",
+                "icon":"/pc-top-staffpopicon.png",
+                "staffname":"staff名前",
+                "address":"@e☆イヤホン 店舗住所"
+            },
             {
                 "img": "/pc-top-staffpop.png",
                 "brand": "Jomo Audio",

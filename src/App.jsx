@@ -9,6 +9,8 @@ import HighPrice from './PcJs/HighPrice'
 // import StaffReview from './PcJs/StaffReview/StaffReview'
 import StaffReview2 from './PcJs/StaffReview2'
 import UsersReview from './PcJs/UsersReview/UsersReview'
+import Recommendation from './PcJs/ Recommendation'
+import ReadingItem from './PcJs/ReadingItem'
 
 function App() {
 
@@ -21,10 +23,14 @@ function App() {
       <Recentlycheck />
       <Products />
       <HighPrice />
-      <div className='all-review'>
+      {/* <div className='all-review'> */}
         <StaffReview2 />
         <UsersReview />
-      </div>
+      {/* </div> */}
+      <ReadingItem />
+      <Recommendation />
+   
+     
     </>
   )
 }
