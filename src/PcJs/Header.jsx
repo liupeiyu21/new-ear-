@@ -9,6 +9,7 @@ import { BsCart } from "react-icons/bs";
 import { TbMessageReportFilled } from "react-icons/tb";
 import "../PcTop.css"
 import { useState } from "react";
+import { Link } from "react-router";
 
 function Header() {
   const[ isOpen, setIsOpen] = useState(false);
@@ -30,7 +31,7 @@ function Header() {
             <p>世界中のイヤホン・ヘッドホンが試聴・買取・購入できる専門店</p>
             <div className="pc-category">
                 <h1>
-                    <img src={Logo} alt="サイトのlogoです。" />
+                   <Link to= "/"><img src={Logo} alt="サイトのlogoです。" /></Link> 
                 </h1>
                
                 <ul className="pc-category-item">
@@ -157,7 +158,9 @@ function Header() {
                     <li className="li">
                         買取
                     <ul className="pc-category-old">
-                      <li>買取金額を調べる</li>
+                      <li className="pc-categpry-old-li">
+                        <Link to= "/買取金額を調べる">買取金額を調べる</Link>
+                        </li>
                       <li>eイヤホンの買取サービス</li>
                       <li>無料査定のお申し込み</li>
                       <li>買取Q＆A</li>
