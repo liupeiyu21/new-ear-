@@ -589,6 +589,85 @@ h1 > img{
     color: #F08300;
 }
 
+/* staffReview　スタッフのレビュー文 */
+.review-list{
+    display: flex;
+    gap: 1%;
+    margin-top: 50px;
+}
+.reviews-sentence{
+    white-space: normal;
+    width: 290px;
+}
+.staff-review-contents > h2 {
+    text-align: center;
+}
+
+.staff-review-category{
+    text-align: center;
+}
+.staff-review-category > span{
+    margin: 0 40px;
+}
+.review{
+    color: #F08300;
+    box-shadow: 0 2px 0 0 #F08300;
+}
+.review-card > img{
+    border-radius: 10px;
+}
+.review-card{
+    padding: 30px 20px;
+    border: 1px rgba(0, 0, 0, 0.15) solid;
+    border-radius: 10px;
+    box-shadow: 0 10px 10px rgba(0, 0, 0, 0.15);
+}
+.staff-btns{
+    text-align: center;
+    margin: 50px auto;
+}
+.staff-review-btn{
+    font-size: 18px;
+    padding: 15px 80px;
+}
+
+
+
+/* User review　ユーザーのレビュー文です */
+.users-list{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1%;
+}
+.users-card{
+    padding: 30px 20px;
+    border: 1px rgba(0, 0, 0, 0.15) solid;
+    border-radius: 10px;
+    box-shadow: 0 10px 10px rgba(0, 0, 0, 0.15);
+    margin-top: 10px;
+}
+.users-card > img{
+    border-radius: 10px;
+}
+.users-so{
+    margin-bottom: 83px;
+    text-align: center;
+}
+.users-btns{
+    text-align: center;
+    margin: 50px auto;
+}
+.users-review-brn{
+    font-size: 18px;
+    padding: 15px 80px;
+}
+
+.users-star::after{
+    content: "★ ★ ★ ★ ★";
+    color: #F08300;
+    font-size: 24px;
+}
+
 
 @media screen and (max-width: 1300px ) {
     .pc-category-item{

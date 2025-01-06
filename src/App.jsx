@@ -6,6 +6,9 @@ import Banner from './PcJs/Banner'
 import Recentlycheck from "./PcJs/Recentlycheck"
 import Products from './PcJs/Products'
 import HighPrice from './PcJs/HighPrice'
+// import StaffReview from './PcJs/StaffReview/StaffReview'
+import StaffReview2 from './PcJs/StaffReview2'
+import UsersReview from './PcJs/UsersReview/UsersReview'
 
 function App() {
 
@@ -18,6 +21,10 @@ function App() {
       <Recentlycheck />
       <Products />
       <HighPrice />
+      <div className='all-review'>
+        <StaffReview2 />
+        <UsersReview />
+      </div>
     </>
   )
 }

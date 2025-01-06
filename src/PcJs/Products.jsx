@@ -8,8 +8,8 @@ function Products(){
     const [ selectProduct, setSelectProduct] = useState("New");
     const productList = ProductsData.Products[selectProduct];
 
-    const [ activeTab, setActive ] = useState("New");
-    const active = ProductsData.Products[activeTab];
+    // const [ activeTab, setActive ] = useState("New");
+    // const active = ProductsData.Products[activeTab];
 
     return(
         <div className="container">
