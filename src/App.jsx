@@ -12,7 +12,7 @@ import UsersReview from './PcJs/UsersReview/UsersReview'
 import Recommendation from './PcJs/ Recommendation'
 import ReadingItem from './PcJs/ReadingItem'
 import News from './PcJs/News'
-
+import Guidance from './PcJs/Guidance'
 
 function App() {
 
@@ -32,7 +32,7 @@ function App() {
       <ReadingItem />
       <Recommendation />
       <News />
-     
+     <Guidance />
     </>
   )
 }

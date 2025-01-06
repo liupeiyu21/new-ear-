@@ -693,7 +693,7 @@ h1 > img{
 }
 .users-so{
     margin-bottom: 30px;
-    padding-left: 5%;
+   
 }
 .users-btns{
     text-align: center;
@@ -859,6 +859,68 @@ h1 > img{
     border: none;
     cursor: pointer;
 }
+
+
+/* guidance e☆イヤホンのご案内 */
+.guidance{
+    background-color: #F3BB3C;
+    padding: 50px;
+    margin: 100px auto;
+}
+.guidance-title{
+    font-size: 28px;
+    margin: 50px auto 100px auto;
+}
+.guidance-content{
+    display: flex;
+    justify-content: center;
+}
+.guidance-num{
+    background-color: #fff;
+    border: 1px black solid;
+   
+    height: 350px;
+    width: 267px;
+    margin-right: 20px;
+}
+.guidance-num > p{
+    padding: 10px 10px;
+    text-align: left;
+    line-height: 25px;
+   
+}
+.guidance-method{
+    display: flex;
+    flex-direction: row;
+}
+.band{
+    font-size: 12px;
+    width: 35px;
+    background-color: #0264DF;
+    color: #fff;
+    padding: 5px;
+    margin-left:10px;;
+    margin-right: 20px;
+}
+.allowance{
+    font-size: 12px;
+    width: 35px;
+    background-color: #FE9901;
+    color: #fff;
+    padding: 5px; 
+    margin-left: 0;
+    margin-right: 20px;
+}
+.store1{
+    font-size: 12px;
+    width: 35px;
+    background-color: #22A24D;
+    color: #fff;
+    padding: 5px; 
+    margin-left: 0;
+    margin-right: 20px;
+}
+
 
 @media screen and (max-width: 1300px ) {
     .pc-category-item{
