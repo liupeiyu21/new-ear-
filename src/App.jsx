@@ -14,6 +14,8 @@ import ReadingItem from './PcJs/ReadingItem'
 import News from './PcJs/News'
 import Guidance from './PcJs/Guidance'
 import Cooperate from './PcJs/Cooperate'
+import Footer from './PcJs/Footer'
+import Lastinfo from './PcJs/LastInfo'
 
 function App() {
 
@@ -35,6 +37,8 @@ function App() {
       <News />
      <Guidance />
      <Cooperate />
+     <Footer />
+     <Lastinfo />
     </>
   )
 }

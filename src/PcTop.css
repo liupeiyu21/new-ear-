@@ -939,6 +939,75 @@ h1 > img{
     margin-top: 100px;
 }
 
+/* footer css */
+
+footer{
+    display: flex;
+    justify-content: center;
+    background-color:#FCF9E8 ;
+    height: 600px;
+    margin-top:100px;
+    align-items: center;
+}
+
+footer div{
+    padding: 2vw 4%;
+    white-space: nowrap;
+}
+footer div ul{
+     display: flex;
+     flex-direction: column;
+     list-style: none;
+}
+ul li a{
+    font-size: 16px;
+    text-decoration: none;
+    color: black;
+} 
+footer > h3{
+    border-bottom: 2px black solid;
+    width: 50%;
+
+}
+ul li a:hover{
+    color:#F08300 ;
+}
+.snslogo{
+    display: flex;
+    justify-content: space-around;
+    padding: 0;
+    margin-top: 2vw;
+}
+.address{
+    line-height: 50px;
+    margin-top: 50px;
+}
+.service{
+    line-height: 50px;
+}
+.footerLogo{
+    line-height: 50px;
+}
+
+/* lastinfo 最後の部分 */
+
+.last-info{
+    display: flex;
+    justify-content: center;
+    margin-top: 0;
+    list-style-type: none;
+}
+.last-info > li {
+    margin:  30px;
+   
+}
+.last-content{
+    margin-top: 30px;
+}
+.last-content > p{
+    line-height: 30px;
+}
+
 @media screen and (max-width: 1300px ) {
     .pc-category-item{
         display: none;
