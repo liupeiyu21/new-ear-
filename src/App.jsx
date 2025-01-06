@@ -13,6 +13,7 @@ import Recommendation from './PcJs/ Recommendation'
 import ReadingItem from './PcJs/ReadingItem'
 import News from './PcJs/News'
 import Guidance from './PcJs/Guidance'
+import Cooperate from './PcJs/Cooperate'
 
 function App() {
 
@@ -33,6 +34,7 @@ function App() {
       <Recommendation />
       <News />
      <Guidance />
+     <Cooperate />
     </>
   )
 }

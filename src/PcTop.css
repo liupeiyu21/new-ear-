@@ -921,6 +921,23 @@ h1 > img{
     margin-right: 20px;
 }
 
+/* cooperate 相互リンク*/
+
+
+
+.cooperate-img1{
+    margin-right: 80px;
+    margin-top: 50px;
+}
+.cooperate-img2{
+    margin-left: 80px;
+    margin-top: 50px;
+}
+.cooperate-title{
+    font-size: 28px;
+    color: #F08300;
+    margin-top: 100px;
+}
 
 @media screen and (max-width: 1300px ) {
     .pc-category-item{
