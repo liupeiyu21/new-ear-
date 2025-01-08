@@ -780,6 +780,7 @@ h1 > img{
     padding-left: 5%;
     text-align: center;
     padding-top: 30px;
+ 
 }
 .ear-span{
     padding-right: 15px;
@@ -870,30 +871,37 @@ h1 > img{
 /* guidance e☆イヤホンのご案内 */
 .guidance{
     background-color: #F3BB3C;
-    padding: 50px;
+    /* padding: 30px; */
     margin: 100px auto;
+    padding-bottom: 50px;
 }
 .guidance-title{
-    font-size: 28px;
-    margin: 50px auto 100px auto;
+    text-align: center;
+    padding-bottom: 30px;
+    padding-top: 30px;
 }
 .guidance-content{
     display: flex;
     justify-content: center;
+    padding-left: 5%;
+    padding-right: 5%;
 }
 .guidance-num{
     background-color: #fff;
     border: 1px black solid;
-   
-    height: 350px;
-    width: 267px;
+    width: 25%;
     margin-right: 20px;
+    border-radius: 10px;
+    padding: 5px 10px;
+    box-shadow: 0 10px 10px rgba(0, 0, 0, 0.15);
 }
 .guidance-num > p{
     padding: 10px 10px;
     text-align: left;
-    line-height: 25px;
-   
+    line-height: 25px; 
+}
+.guidance-num > h3{
+    text-align: center;
 }
 .guidance-method{
     display: flex;
