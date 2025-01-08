@@ -937,20 +937,18 @@ h1 > img{
 
 /* cooperate 相互リンク*/
 
-
-
-.cooperate-img1{
-    margin-right: 80px;
-    margin-top: 50px;
-}
-.cooperate-img2{
-    margin-left: 80px;
-    margin-top: 50px;
+.cooper{
+  text-align: center;
 }
 .cooperate-title{
-    font-size: 28px;
     color: #F08300;
-    margin-top: 100px;
+    margin-top: 50px;
+    padding-bottom: 30px;
+}
+.cooperate-img{
+    display: flex;
+    justify-content: center;
+    gap: 5%;
 }
 
 /* footer css */
@@ -972,6 +970,7 @@ footer div ul{
      display: flex;
      flex-direction: column;
      list-style: none;
+     padding-left: 0;
 }
 ul li a{
     font-size: 16px;
@@ -1016,7 +1015,7 @@ ul li a:hover{
    
 }
 .last-content{
-    margin-top: 30px;
+    text-align: center;
 }
 .last-content > p{
     line-height: 30px;
