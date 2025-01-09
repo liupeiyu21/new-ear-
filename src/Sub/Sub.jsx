@@ -4,6 +4,7 @@ import Footer from "../PcJs/Footer";
 import BreadList from "./BreadList"
 import MoneyCategory from "./MoneyCategory"
 import SearchForm from "./SearchForm"
+import BrandsSearch from "./BrandsSearch"
 
 function Sub() {
     return(
@@ -12,6 +13,7 @@ function Sub() {
         <BreadList />
         <MoneyCategory />
         <SearchForm />
+        <BrandsSearch />
         <Footer />
         </>
     )

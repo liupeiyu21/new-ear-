@@ -117,3 +117,30 @@
 .second-price{
     font-size: 20px;
 }
+
+/* BrandSearch　ブランドから探す */
+.brand-search > h3 {
+    color: #F08300;
+    border-bottom: 2px black solid;
+    font-weight: bold;
+    padding-bottom: 30px;
+    font-size: 24px;
+    
+}
+.brand-search > h4 {
+    font-size:20px;
+}
+.brand-search{
+    text-align: left;
+    margin-top: 100px;
+}
+/* .recen{
+    margin-left: 365px;
+} */
+.brand-search-list{
+    text-align: left;
+}
+.brand-search-list > h5{
+    margin-bottom: 0;
+    font-size: 20px;
+}
