@@ -1,0 +1,119 @@
+
+/* パンクズリスト */
+.breadlist{
+    display: flex;
+    justify-content: flex-start;
+    list-style-type: none;
+}
+.breadlist  {
+    padding: 0;
+    margin-left: 5%;
+}
+.breadlist > li {
+    padding-right: 20px;
+}
+
+/* category　金額を調べるカテゴリー */
+.isopen {
+    font-size: 24px;
+    margin-left: 30px;
+}
+.category-open > h3{
+    border-bottom: 2px black solid;
+    color: #F08300;
+    text-align: left;
+    font-weight: bold;
+    white-space: nowrap;
+    padding-bottom: 30px;
+    font-size: 24px;
+    margin-left: 5%;
+}
+.money-category{
+    margin-left: 5%;
+}
+.ca-item{
+    text-align: left;
+    line-height: 3;
+    font-size: 20px;
+}
+.product-search{
+    margin-left: 170px;
+}
+
+
+/* SearchForm 金額を調べる枠 */
+
+.formContainer{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    border: 2px black solid;
+    /* width: 853px; */
+    /* margin-left: 150px; */
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 100px;
+}
+.second-label{
+    font-size: 24px;
+}
+.second-select{
+    font-size: 20px;
+}
+.form-name{
+    text-align: left;
+    /* margin-left: 150px; */
+}
+.inputGroup{
+    margin: 20px auto;
+}
+.form-title{
+    margin-right: 50px;
+    font-size: 24px;
+}
+.input-keyword{
+    width: 350px;
+    padding: 10px;
+    font-size: 20px;
+}
+.select-keyword{
+    width: 300px;
+    padding: 10px;
+}
+.form-title2{
+    margin-right: 50px;
+    font-size: 24px;
+}
+.select-keyword{
+    margin-right: 80px;
+    font-size: 20px;
+}
+.brand-keyword{
+    width: 250px;
+    padding: 10px;
+    margin-right: 120px;
+    font-size: 20px;
+}
+.submit{
+    width: 350px;
+    padding: 12px;
+    background-color: #F08300;
+    font-size: 24px;
+    color: #fff;
+    margin-left: 300px;
+    margin-bottom: 20px;
+}
+.handleReset{
+   margin-left: 55px;
+   margin-top: 20px;
+}
+.second-brand{
+    font-size: 16px;
+}
+.second-name{
+    font-size: 18px;
+}
+
+.second-price{
+    font-size: 20px;
+}

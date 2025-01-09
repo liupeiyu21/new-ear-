@@ -122,7 +122,7 @@ h1 > img{
 .li{
     position: relative;
     padding: 10px 30px; 
-   
+    /* font-size: 24px; */
 }
 
 .li::after{
@@ -772,9 +772,9 @@ h1 > img{
 /* recommendation おすすめ読み物 */ 
 
 .recom{
-    background-color: #FCF9E8;
-           
+    background-color: #FCF9E8;    
     margin-top: 100px;  
+    padding-bottom: 40px;
 }
 .recom-tile{
     padding-left: 5%;
@@ -801,13 +801,14 @@ h1 > img{
  }
  .recom-img img{
     width: 100%;
+    border-radius: 10px 10px 0 0;
  }
 .recom-img > p{
     margin: 0;
-
+    border-radius: 0 0 10px 10px;
     text-align: left;
     background-color: #fff;
-    padding: 0 10px 30px 0;
+    padding: 10px 5px ;
     font-size: 14px;
 }
 .recom-imgs{
@@ -817,6 +818,7 @@ h1 > img{
 }
 .recom-imgs img{
     width: 30%;
+    border-radius: 10px;
 }
 .recom > h2{
     margin-bottom: 50px;
@@ -1011,14 +1013,17 @@ ul li a:hover{
     list-style-type: none;
 }
 .last-info > li {
-    margin:  30px;
-   
+    margin:  30px;  
+}
+.last-info > li > a{
+    font-size: 14px;
 }
 .last-content{
     text-align: center;
+    font-size: 10px;
 }
 .last-content > p{
-    line-height: 30px;
+    line-height: 15px;
 }
 
 @media screen and (max-width: 1300px ) {
