@@ -7,7 +7,7 @@ import SearchForm from "./SearchForm"
 import BrandsSearch from "./BrandsSearch"
 import SecondHand from "./SecondHand/SecondHand"
 import Recentlycheck from "../PcJs/Recentlycheck"
-function Sub() {
+function Sub1() {
     return(
         <>
         <Header />
@@ -23,4 +23,4 @@ function Sub() {
 
 }
 
-export default Sub;
+export default Sub1;

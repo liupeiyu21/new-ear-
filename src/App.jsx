@@ -18,8 +18,8 @@ import './App.css'
 // import Lastinfo from './PcJs/LastInfo'
 
 import Top from "./PcJs/Top"
-import Sub from "./Sub/Sub"
-
+import Sub1 from "./Sub1/Sub1"
+import Sub2 from "./Sub2/Sub2"
 
 import { BrowserRouter, Routes, Route, Link } from 'react-router';
 
@@ -32,7 +32,8 @@ function App() {
   <BrowserRouter>
     <Routes>
       <Route path='/' element={<Top />} />
-      <Route path='/買取金額を調べる' element={<Sub />} />
+      <Route path='/買取金額を調べる' element={<Sub1 />} />
+      <Route path="/買取商品の詳細" element={ <Sub2 />} />
     </Routes>
     
   </BrowserRouter>
