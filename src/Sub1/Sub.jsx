@@ -5,7 +5,8 @@ import BreadList from "./BreadList"
 import MoneyCategory from "./MoneyCategory"
 import SearchForm from "./SearchForm"
 import BrandsSearch from "./BrandsSearch"
-
+import SecondHand from "./SecondHand/SecondHand"
+import Recentlycheck from "../PcJs/Recentlycheck"
 function Sub() {
     return(
         <>
@@ -14,6 +15,8 @@ function Sub() {
         <MoneyCategory />
         <SearchForm />
         <BrandsSearch />
+        <SecondHand />
+        <Recentlycheck />
         <Footer />
         </>
     )
