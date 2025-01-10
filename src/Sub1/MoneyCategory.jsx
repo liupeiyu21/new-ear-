@@ -1,6 +1,8 @@
 
 import React, { useState } from "react";
 import '../Sub1.css'
+import Addition from "/addition.png"
+import Subtraction from "/subtraction.png"
 
 const Category = ( { title, items }) => {
     const [ isOpen, setIsOpen ] = useState(false);
@@ -11,7 +13,16 @@ const Category = ( { title, items }) => {
     return (
         <>
             <div onClick={toggleCategory} className="category-open">
-                <h3>{title}<span className="isopen">{ isOpen ? '-' : '+' }</span></h3> 
+                <h3>
+                    {title}
+                    <span className="isopen">
+                        <img 
+                        src={isOpen ? Subtraction : Addition} 
+                        alt={isOpen ? "閉じる" : "開く"} 
+                        className="icon"
+                        />
+                        
+                    </span></h3> 
             </div>
 
             {isOpen && (

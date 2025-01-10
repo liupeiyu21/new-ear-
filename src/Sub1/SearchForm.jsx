@@ -16,10 +16,10 @@ function SearchForm() {
 
     return(
         <>
-            <h2 className="form-name">買取検索</h2>
+            <h1 className="form-name">買取検索</h1>
             <form className="formContainer">
                 
-                
+                <div className="money-form">
                 <div className="inputGroup">
                     <label className="form-title">キーワード：</label>
                     <input 
@@ -31,7 +31,7 @@ function SearchForm() {
                     />
                 </div>
 
-                <div className="inputGroup2">
+                <div className="inputGroup">
                     <label className="form-title2 ">カテゴリー：</label>
                     <select 
                     className="select-keyword"
@@ -46,7 +46,7 @@ function SearchForm() {
                 </div>
 
                 <div className="inputGroup">
-                    <label className="form-title">ブランド：</label>
+                    <label className="form-title form-brand">ブランド：</label>
                     <select 
                     className="brand-keyword"
                     value={brand}
@@ -59,19 +59,20 @@ function SearchForm() {
                     </select>
                 </div>
 
-
-                <div>
-                   
-                    <button type="submit" className="submit">
-                        検索
-                    </button>
-                    <button 
+       
+                <div className="search-btn">
+                <button 
                     onClick={handleReset}
                     className="handleReset"
                     >
-                        <small>条件をリセット</small>
-                    </button>
+                    <small>条件をリセット</small>
+                </button>
+                <button  className="submit">
+                        検索
+                </button>
+
                 </div>
+            </div>
             </form>
         </>
     )
