@@ -83,6 +83,9 @@
     margin-bottom: 100px;
     border-radius: 10px;
 }
+.second-label{
+    font-size: 20px;
+}
 .money-form{
     padding: 20px 50px;
 }
@@ -215,13 +218,18 @@
 }
 .second-card{
     width: 20%;
+    border-radius: 10px;
+}
+.second-card:hover{
+    box-shadow: 0 2px 2px 4px #F08300 ;
 }
 .second-card img{
     width: 100%;
+    border-radius: 10px 10px 0 0;
 }
 .second-form{
     text-align: left;
-    margin-left: 150px;
+    /* margin-left: 150px; */
     margin-bottom: 50px;
 }
 .second-item-info{
@@ -243,7 +251,7 @@
 .second-status{
     background-color: #F08300;
     color: #fff;
-    width: 90px;
+    width: 100px;
     text-align: center;
     margin-left: 0;
 }

@@ -1,4 +1,4 @@
-import Sun from '../../../assets/sub2-users-revieew.png'
+import Sun from '/sub2-users-review.png'
 
 const users = [
     {id:'0',  name:'よーねこ', age:'年代：40代 / 男性', time:'2024.11.26', description:"早い、専門性が高い、おすすめです。"},

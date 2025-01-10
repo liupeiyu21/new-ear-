@@ -3,8 +3,9 @@ import InforBreadList from "./InforBreadList";
 import InforProducts from "./InforProducts";
 import PurchaseRules from "./PurchaseRules";
 import NoPurchase from "./NoPurchase";
-// import InforUserReview from "./InforUserReview";
-// import Footer from "../../comment/Footer"
+import InforUserReview from "./InforUserReview";
+
+import '../Sub2.css'
 
 
 function MoreInformation () {
@@ -12,14 +13,14 @@ function MoreInformation () {
         <>
         <Header />
         <InforBreadList />
-        {/* <div className="more"> */}
+        <div className="more">
             <InforProducts />
             <PurchaseRules />
             
             <NoPurchase />
-            {/* <InforUserReview /> */}
-        {/* </div> */}
-        {/* <Footer /> */}
+            <InforUserReview />
+        </div>
+        
         </>
     )
 }

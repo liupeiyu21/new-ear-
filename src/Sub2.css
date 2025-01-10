@@ -1,0 +1,232 @@
+
+.more{
+    display: flex;
+    flex-direction: column;
+    width: 65vw;
+    margin: 0 auto;
+}
+
+
+
+/* .inforbreadlistのCSS */
+
+.inforbreadlist{
+    display: flex;
+    flex-direction: flex-start;
+    list-style-type: none;
+    margin-left: 10%;
+}
+.inforbreadlist  > li {
+    padding-right: 10px;
+}
+
+/* InforProductsのcss */
+.ear-information{
+   
+    display: flex;
+    justify-content: center; 
+    gap: 10vw; 
+    
+    
+}
+.ear-info-img{
+    /* margin: 100px 0 0 100px; */
+}
+.ear-info-imgs {
+    display: flex;
+    justify-content: space-between;
+}
+.ear-info{
+    /* margin-top: 100px; */
+    /* margin-right: 100px; */
+    text-align: left;
+}
+.ear-info > h3{
+    font-size: 28px;
+}
+.ear-info > .info-best-price{
+    font-size: 32px;
+    color: #DE5D50;
+    
+    margin-top: 50px;
+}
+.ear-info > .infor-price{
+    font-size: 72px;
+    font-weight: bold;
+    color: #DE5D50;
+}
+.ear-info > .infor-price > span{
+    font-size: 28px;
+}
+
+.infor-small{
+    text-align: right;
+    margin-right: 200px;
+}
+.ear-info > button {
+    font-size: 48px;
+    padding: 20px 100px;
+    margin-top: 80px;
+    color: #fff;
+    background-color:#F08300 ;
+    letter-spacing: 5px;
+    white-space: nowrap;
+}
+
+/* PurchaseRules  */
+
+/* .rules{
+  max-width: 1200px;
+  margin: 0 auto;
+} */
+.togglestep{
+    background-color: #F08300;
+    /* max-width: 1250px; */
+    text-align: center;
+    /* margin-left: 100px; */
+    margin: 0 auto;
+    padding: 30px;
+    margin-top: 100px;
+    color: #fff;
+    font-size: 28px
+}
+.togglesteps{
+    margin-left: 20px;
+}
+.steps-grid{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 50px;
+    margin-top: 80px;
+    /* margin-left: 100px;
+    margin-right: 25px;
+    */
+}
+.step-card{
+    border: 1px solid #ddd;
+
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+ 
+}
+
+.step-number {
+    font-size: 1.5rem;
+    font-weight: bold;
+    padding: 0 50px;
+  }
+  
+  .step-title {
+    margin-top: 10px;
+    font-size: 24px;
+  }
+  
+  .step-description {
+    margin-top: 5px;
+    color: #555;
+    padding: 20px 10px 50px 10px;
+    text-align: left;
+    margin-left: 100px;
+  }
+.step-description1,
+.step-description2,
+.step-description3{
+  font-size: 20px;
+}
+
+/* NoPurchase */
+.togglesell{
+    background-color: #F08300;
+    /* max-width: 1150px; */
+    text-align: center;
+    /* margin-left: 100px; */
+    margin: 0 auto;
+    padding: 30px;
+    margin-top: 100px;
+    color: #fff;
+    font-size: 28px
+}
+.togglesells{
+    margin-left: 20px;
+}
+.sell-grid{
+    /* display: flex;
+    flex-wrap: wrap; */
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 50px;
+    margin-top: 80px;
+    /* margin-left: 100px;
+    margin-right: 25px; */
+}
+.nosell-card{
+    border: 1px solid #ddd;
+
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+ 
+}
+.nosell-number{
+    font-size: 1.5rem;
+    font-weight: bold;
+    padding: 0 50px;
+}
+.nosell-title{
+    margin-top: 10px;
+    font-size: 24px;
+}
+.nosell-description{
+    margin-top: 5px;
+    color: #555;
+    padding: 20px 10px 50px 10px;
+    text-align: left;
+    margin-left: 100px;
+    
+}
+
+.nosell-description1,
+.nosell-description2,
+.nosell-description3 {
+    font-size: 20px;
+}
+
+/* InforUserReview  */
+
+.users-infor-review > h2 {
+ 
+    /* max-width: 1250px; */
+    text-align: center;
+    /* margin-left: 100px;
+    margin-right: 100px; */
+    padding: 30px;
+    margin-top: 100px;
+    font-size: 28px;
+    border: 2px black solid;
+}
+.users-re{
+    display: flex;
+   padding-left: 170px;
+   
+   text-align: left;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    border: 1px black solid;
+    /* width: 1080px; */
+    /* margin-left: 98px; */
+
+}
+
+.user-age{
+    margin-left: 50px;
+}
+.users-time{
+    margin-top: 30px;
+}
+.users-description{
+    /* margin-left: 300px; */
+    margin: 0 auto;
+  
+    font-size: 20px;
+}
+
+
