@@ -615,7 +615,7 @@ h1 > img{
 }
 .review-list{
     display: flex;
-    /* justify-content: space-between; */
+    justify-content: space-between;
     gap: 1%;
     margin-top: 50px;
 }
@@ -647,11 +647,15 @@ h1 > img{
 .review-card > img{
     border-radius: 10px;
 }
+.review-card > .img-big{
+    width: 100%;
+}
 .review-card{
     padding: 30px 10px;
     border: 1px rgba(0, 0, 0, 0.15) solid;
     border-radius: 10px;
     box-shadow: 0 10px 10px rgba(0, 0, 0, 0.15);
+    width: 100%;
 }
 .staff-btns{
     text-align: center;
@@ -674,12 +678,10 @@ h1 > img{
 .users-title{
     display: flex;
     justify-content: space-between;
-    border-top: 1px #efefef solid;
-    border-bottom: 1px #efefef solid;
+  
     margin-top: 50px;
     margin-bottom: 30px;
-    margin-left: 5%;
-    margin-right: 5%;
+    
 }
 .users-title  > p{
     padding-right: 5%;
@@ -693,13 +695,15 @@ h1 > img{
     border-radius: 10px;
     box-shadow: 0 10px 10px rgba(0, 0, 0, 0.15);
     margin-top: 10px;
+    width: 100%;
 }
 .users-card > img{
     border-radius: 10px;
+    width: 100%;
 }
 .users-so{
     margin-bottom: 30px;
-   
+   padding-left: 5%;
 }
 .users-btns{
     text-align: center;
