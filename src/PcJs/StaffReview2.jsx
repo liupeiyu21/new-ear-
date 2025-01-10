@@ -32,7 +32,7 @@ function StaffReview2() {
             <div className="review-list">
                 {reviewList.map((review, index) => (
                     <div className="review-card" key={index}>
-                        <img src={review.img} alt="商品の写真" />
+                        <img src={review.img} className="img-big" alt="商品の写真" />
                         <p className="reviews-brand">{review.brand}</p>
                         <p className="reviews-name">{review.name}</p>
                         <div className="reviews-spans">

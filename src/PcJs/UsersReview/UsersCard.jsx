@@ -6,7 +6,7 @@ const UsersCard = ( {item} ) => {
     return(
         <>
         <div className="users-card">
-            <img src={TopUsersReview} alt="ユーザーが撮った商品の写真です。" />
+            <img src={TopUsersReview} className="users-img" alt="ユーザーが撮った商品の写真です。" />
             <div className="users-card-content">
 
                 <p className="users-star"></p>
