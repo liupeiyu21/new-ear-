@@ -31,7 +31,7 @@ function Header() {
             <p>世界中のイヤホン・ヘッドホンが試聴・買取・購入できる専門店</p>
             <div className="pc-category">
                 <h1>
-                   <Link to= "/"><img src={Logo} alt="サイトのlogoです。" /></Link> 
+                   <Link to= "/"><img src={Logo} className="sp-logo" alt="サイトのlogoです。" /></Link> 
                 </h1>
                
                 <ul className="pc-category-item">

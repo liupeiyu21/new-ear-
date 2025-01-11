@@ -1,4 +1,4 @@
-import Header from "../PcJs/Header";
+import Header from "../PcTopJs/Header";
 import InforBreadList from "./InforBreadList";
 import InforProducts from "./InforProducts";
 import PurchaseRules from "./PurchaseRules";

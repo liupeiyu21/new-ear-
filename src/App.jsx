@@ -17,9 +17,9 @@ import './App.css'
 // import Footer from './PcJs/Footer'
 // import Lastinfo from './PcJs/LastInfo'
 
-import Top from "./PcJs/Top"
-import Sub1 from "./Sub1/Sub1"
-import Sub2 from "./Sub2/Sub2"
+import Top from "./PcTopJs/Top"
+import Sub1 from "./PcSub1Js/Sub1"
+import Sub2 from "./PcSub2Js/Sub2"
 
 import { BrowserRouter, Routes, Route, Link } from 'react-router';
 

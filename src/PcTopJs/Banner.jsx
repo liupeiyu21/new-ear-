@@ -42,7 +42,7 @@ export default function Banner() {
                 slidesPerView:3,
                 spaceBetween:10,
             },
-            768: {
+            820: {
                 slidesPerView:3,
                 spaceBetween:10,
             },

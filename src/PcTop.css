@@ -842,6 +842,7 @@ h1 > img{
 }
 .recom > h2{
     margin-bottom: 50px;
+    
 }
 
 
@@ -1046,7 +1047,7 @@ ul li a:hover{
     line-height: 15px;
 }
 
-@media screen and (max-width: 1300px ) {
+@media screen and (min-width:820px) and (max-width: 1300px ) {
     .pc-category-item{
         display: none;
     }
@@ -1106,7 +1107,54 @@ ul li a:hover{
     .li:hover .pc-category-old2{
         transform: scale(1);
     }
-  
+
+    /* FastView */
+    .fastview-swiper > .swiper > .swiper-wrapper > .swiper-slide > img{
+        width: 98%;
+      }
+
+      /* e☆イヤホンの読みもの！ */
+    .read-title,
+    .read-sentence{
+        width: 70%;
+    }
+    /* .reading-item > .swiper > .swiper-wrapper > .swiper-slide{
+        width: 50%;
+    } */
+
+     /* Footer */
+     footer{
+        padding-left: 5%;
+        padding-right: 5%;
+     }
+     /* LastInfo */
+     .last-info{
+        white-space: nowrap;
+        padding: 0 5%;
+     }
 
 }
 
+
+@media screen and (min-width:375px) and (max-width:428px) {
+    .pc-infor{
+        font-size: 10px;
+    }
+    .pc-header > p{
+        font-size: 8px;
+    }
+    .sp-logo{
+        width: 70%;
+    }
+    .pc-header {
+        text-align: center;
+    }
+    .pc-category{
+        display: flex;
+        justify-content: center;
+    }
+    .pc-category-item,
+    .pc-icon-item{
+        display: none;
+    }
+}

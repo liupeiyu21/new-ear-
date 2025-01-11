@@ -23,6 +23,10 @@ export default function FastView() {
       <Swiper
         modules={[Navigation, Pagination, Mousewheel, Keyboard]}
         breakpoints={{
+            375:{
+                slidesPerView:1,
+                spaceBetween:10,
+            },
             640:{
                 slidesPerView:1,
                 spaceBetween:10,
@@ -36,7 +40,7 @@ export default function FastView() {
                 spaceBetween:15,
             }
         }}
-        loop = {{loop: true}}
+        // loop = {{loop: true}}
         scrollbar={{ draggable: true }}
         pagination={{ clickable: true }}
         cssMode={true}
