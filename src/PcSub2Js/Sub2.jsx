@@ -5,7 +5,7 @@ import PurchaseRules from "./PurchaseRules";
 import NoPurchase from "./NoPurchase";
 import InforUserReview from "./InforUserReview";
 
-import '../Sub2.css'
+import '../PcSub2.css'
 
 
 function MoreInformation () {

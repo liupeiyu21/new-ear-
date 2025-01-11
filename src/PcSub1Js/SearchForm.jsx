@@ -1,6 +1,6 @@
 
 import React, { useState } from "react"
-import "../Sub1.css"
+import "../PcSub1.css"
 
 
 function SearchForm() {

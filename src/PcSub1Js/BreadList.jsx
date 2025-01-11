@@ -1,4 +1,4 @@
-import "../Sub1.css"
+import "../PcSub1.css"
 import { Link  } from 'react-router';
 function BreadList() {
     return(

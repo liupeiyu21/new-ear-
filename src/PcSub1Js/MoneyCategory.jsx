@@ -1,6 +1,6 @@
 
 import React, { useState } from "react";
-import '../Sub1.css'
+import '../PcSub1.css'
 import Addition from "/addition.png"
 import Subtraction from "/subtraction.png"
 
