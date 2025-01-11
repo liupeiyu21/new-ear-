@@ -14,11 +14,15 @@ import Guidance from './Guidance'
 import Cooperate from './Cooperate'
 import Footer from './Footer'
 import Lastinfo from './LastInfo'
+import HamburgerMenu from '../SPTopJs/HamburgerMenu'
+
+import '../Top.css'
 
 function Top() {
     return(
         <>
       <Header />
+      <HamburgerMenu />
       <FastView />
       <Banner />
       <Recentlycheck />

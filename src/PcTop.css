@@ -1136,6 +1136,7 @@ ul li a:hover{
 }
 
 
+
 @media screen and (min-width:375px) and (max-width:428px) {
     .pc-infor{
         font-size: 10px;
@@ -1157,4 +1158,22 @@ ul li a:hover{
     .pc-icon-item{
         display: none;
     }
+    /* Products 新着　中古　ランキング */
+    .container{
+        display: none;
+    }
+    /* スタッフレビュー */
+    .staff-review-contents{
+        display: none;
+    }
+
+    /* footer */
+    footer{
+        display: none;
+    }
+    /* LastInfo */
+    .last{
+        display: none;
+    }
+
 }
