@@ -1361,15 +1361,26 @@ ul li a:hover{
     .reading-more > h2{
         margin: 0;
     }
+    /* おすすめ・特集 */
+    .recom-content{
+        display: flex;
+        flex-direction: column;
+    }
+    .recom-img{
+        width: 100%;
+    }
+    /* 相互リンク */
+    .cooperate-img{
+        padding-left: 5%;
+        padding-right: 5%;
+        gap: 1%;
+    }
 
     /* footer */
     footer{
         display: none;
     }
-    /* LastInfo */
-    .last{
-        display: none;
-    }
+ 
     
     /* e☆イヤホンのご案内 */
     .guidance-content{
@@ -1394,4 +1405,27 @@ ul li a:hover{
     .news-notice{
         border-bottom: 4px #707070 solid  ;
     }
+
+    /* スマホのfooter */
+
+    .sp-footer-infor{
+        margin-top: 40px;
+        text-align: center;
+    }
+    .sp-footer-infor > p{
+        background-color: #D9D9D9;
+        margin: 10px auto;
+        padding: 30px;
+    }
+       /* LastInfo */
+   .last-info{
+    display: none;
+   }
+   .last-content{
+    display: flex;
+    flex-direction: column;
+    padding-left: 5%;
+    padding-right: 5%;
+   }
+
 }

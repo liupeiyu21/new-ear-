@@ -16,7 +16,7 @@ import Footer from './Footer'
 import Lastinfo from './LastInfo'
 import HamburgerMenu from '../SPTopJs/HamburgerMenu'
 import SpSearch from "../SPTopJs/SpSearch"
-
+import Spfooter from "../SPTopJs/Spfooter"
 import '../Top.css'
 
 function Top() {
@@ -40,6 +40,7 @@ function Top() {
      <Guidance />
      <Cooperate />
      <Footer />
+     <Spfooter />
      <Lastinfo />
         </>
     )
