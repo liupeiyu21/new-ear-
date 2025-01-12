@@ -1047,6 +1047,19 @@ ul li a:hover{
     line-height: 15px;
 }
 
+/* spの最近チェックの見出し上のicon */
+.sp-ca{
+    display: none;
+}
+/* 新着　中古　ランキング部分のicon */
+.sp-product-icon{
+    display: none;
+}
+/* 高価買取中のicon */
+.sp-heigh{
+    display: none;
+}
+
 @media screen and (min-width:820px) and (max-width: 1300px ) {
     .pc-category-item{
         display: none;
@@ -1138,6 +1151,10 @@ ul li a:hover{
 
 
 @media screen and (min-width:375px) and (max-width:428px) {
+    h2{
+        font-size: 18px;
+    }
+    
     .pc-infor{
         font-size: 10px;
     }
@@ -1158,9 +1175,105 @@ ul li a:hover{
     .pc-icon-item{
         display: none;
     }
-    /* Products 新着　中古　ランキング */
-    .container{
+    /* fastview ファストビュー */
+    .fastview-swiper{
+        padding-top: 0;
+    }
+    /* bannerの部分 */
+    .banner-swiper > .swiper > .swiper-wrapper > .swiper-slide > img{
+        width: 100%;
+    }
+    /* .banner-swiper > .swiper > .swiper-wrapper > .swiper-slide > img:hover{
+        transform: scale(1.1);
+    } */
+    /* 最近チェック商品 */
+    .ca-span{
         display: none;
+    }
+    .sp-ca{
+        display: block;
+        /* margin: 0 auto; */
+        width: 20%;
+    }
+    .recentlycheck > h2{
+        padding: 15px;
+        /* text-align: center; */
+        border-top: none;
+        padding-top: 0;
+    }
+    /* Products 新着　中古　ランキング */
+    .container-icon{
+        display: none;
+    }
+    .container-more{
+        border-top: none;
+    }
+    .heading{
+        white-space: nowrap;
+        gap: 20px;
+   
+    }
+    .sp-product-icon{
+        display: block;
+        width: 20%;
+    }
+    .heading > h2{
+        margin: 0;
+        font-size: 14px;
+        padding-top: 20px;
+    }
+    .p{
+        display: none;
+    }
+    h2.active{
+        font-size: 18px;
+        padding-top: 0;
+    }
+    .item-list{
+        display: flex;
+        flex-wrap: wrap;
+        /* justify-content: space-between; */
+        gap: 0;
+        margin-right: 5%;
+      }
+    .item-card{
+        padding-left: 0;
+        padding-right: 0;
+        width: 45%;
+    }
+    .Linkbtn{
+        text-align: center;
+    }
+    .linkbtn{
+        padding: 5px 30px;
+        background-color: #F08300;
+        color: #fff;
+        border: none;
+        border-radius: 3px;
+    }
+    .linkbtn:hover{
+        background-color: #e9b97f;
+    }
+
+    /* 高価買取中 */
+    .sp-heigh{
+        display: block;
+        width: 30%;
+        padding-top: 30px;
+    }
+    .he-span{
+        display: none;
+    }
+    .heigh-more{
+        border-top: none;
+    }
+    .heighprice > .heigh-more > p{
+        padding-top: 0;
+        font-size: 14px;
+        margin-bottom: 0;
+    }
+    .heighprice-status{
+        width: 120px;
     }
     /* スタッフレビュー */
     .staff-review-contents{
@@ -1175,5 +1288,28 @@ ul li a:hover{
     .last{
         display: none;
     }
+    
+    /* e☆イヤホンのご案内 */
+    .guidance-content{
+        display: flex;
+        flex-direction: column;
+        
+    }
+    .guidance-num{
+        width: 100%;
+        padding: 0;
+        margin-bottom: 20px;
+    }
 
+    /* News お知らせ */
+    .news-content{
+        display: flex;
+        flex-direction: column;
+    }
+    .news{
+        width: 100%;
+    }
+    .news-notice{
+        border-bottom: 4px #707070 solid  ;
+    }
 }

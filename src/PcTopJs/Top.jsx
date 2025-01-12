@@ -15,6 +15,7 @@ import Cooperate from './Cooperate'
 import Footer from './Footer'
 import Lastinfo from './LastInfo'
 import HamburgerMenu from '../SPTopJs/HamburgerMenu'
+import SpSearch from "../SPTopJs/SpSearch"
 
 import '../Top.css'
 
@@ -23,6 +24,7 @@ function Top() {
         <>
       <Header />
       <HamburgerMenu />
+      <SpSearch />
       <FastView />
       <Banner />
       <Recentlycheck />

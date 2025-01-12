@@ -4,9 +4,20 @@
 .hamburger-menu{
     display: none;
 }
+.sp-form,
+.sp-store{
+    display: none;
+}
 
 @media screen and (min-width:375px) and (max-width:428px){
     .hamburger-menu{
         display: block;
     }
+    .sp-form,
+    .sp-store{
+    display: block;
+    display: flex;
+    
+}
+  
 }

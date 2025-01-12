@@ -13,7 +13,8 @@ function Products(){
 
     return(
         <div className="container">
-        <div className="container-more">
+            <img className="sp-product-icon" src={ProductsIcon} alt="" />
+        <div className="container-more">   
         <div className="heading">   
             <div className="container-icon">
                 <img className="heading-icon" src={ProductsIcon} alt="キャラクター" />
@@ -34,7 +35,7 @@ function Products(){
                  onChange={(e) => setSelectProduct(e.target.value)}
             >ランキング</h2>
         </div>
-        <p>もっと見る</p>
+        <p className="p">もっと見る</p>
         </div>
         <div className="item-list">
         {productList.map((product, index) => (
@@ -58,9 +59,10 @@ function Products(){
         ))
         }
         </div>
-        {/* <div className="Linkbtn">
+        <div className="Linkbtn">
             <button className="linkbtn">すべて見る</button>
-        </div> */}
+        </div>
+
 </div>
 
     )

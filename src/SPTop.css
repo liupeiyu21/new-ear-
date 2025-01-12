@@ -48,8 +48,45 @@
     background-color: #efefef;
     width: 90%; 
     height: 100%;
-    transition: left 0.8s ease-in-out ;
+    transition: left 0.5s ease-in-out ;
 }
 .menu.open{
     left: 0;
 }
+
+
+
+    /* 頭の検索のfrom */
+
+    .sp-form{
+        display: flex;
+        justify-content: center;
+        margin-top: 5px;
+    }
+    .sp-search > select{
+        padding: 10px ;
+        border-radius: 5px 0 0 5px;
+        
+        width: 100%;
+        color: #fff;
+        background-color: #707070;;
+    }
+    .sp-input > input{
+        padding: 10px 35vw 10px 0;
+        border-radius: 0 5px 5px 0; 
+    }
+    .sp-store{
+        display: block;
+    }
+    .sp-store{
+        display: flex;
+        justify-content: space-between;
+        background-color: #FCF9EB;
+        padding: 10px;
+    }
+   
+    .sp-store > p{
+        font-size: 14px;
+    }
+  
+

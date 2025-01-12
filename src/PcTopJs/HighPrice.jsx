@@ -13,6 +13,7 @@ function HighPrice() {
     return(
         <>
     <div className="heighprice">
+        <img className="sp-heigh" src={HeighIcon} alt="" />
         <div className="heigh-more">
             <h2><img className="he-span" src={HeighIcon} alt="キャラクター" />高価買取中</h2>
             <p>もっと見る</p>

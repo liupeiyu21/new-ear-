@@ -12,7 +12,7 @@ function Recentlycheck() {
     return(
         <>
     <div className="recentlycheck">
-        
+        <img className="sp-ca" src={RecentlyIcon} alt="" />
         <h2><span ><img className="ca-span" src={RecentlyIcon} alt="キャラクター" /></span>最近チェックした商品</h2>
         <Swiper
            modules={[Pagination, Navigation]}
