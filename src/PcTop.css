@@ -1055,8 +1055,23 @@ ul li a:hover{
 .sp-product-icon{
     display: none;
 }
+.Linkbtn{
+    display: none;
+}
 /* 高価買取中のicon */
 .sp-heigh{
+    display: none;
+}
+/* スタッフレビューのicon */
+.sp-staff{
+    display: none;
+}
+/* ユーザーレビュー */
+.sp-users{
+    display: none;
+}
+ /* e☆イヤホンの読みもの！ */
+.sp-reading{
     display: none;
 }
 
@@ -1204,6 +1219,7 @@ ul li a:hover{
     /* Products 新着　中古　ランキング */
     .container-icon{
         display: none;
+       
     }
     .container-more{
         border-top: none;
@@ -1258,7 +1274,7 @@ ul li a:hover{
     /* 高価買取中 */
     .sp-heigh{
         display: block;
-        width: 30%;
+        width: 25%;
         padding-top: 30px;
     }
     .he-span{
@@ -1276,8 +1292,74 @@ ul li a:hover{
         width: 120px;
     }
     /* スタッフレビュー */
-    .staff-review-contents{
+    .sp-staff{
+        display: block;
+        width: 25%;
+    }
+    .staff-span{
         display: none;
+    }
+    .staff-review-category{
+        padding-top: 0;
+        margin-left: 10px;
+        display: flex;
+        justify-content: center;
+        white-space: nowrap;
+        gap: 5px;
+    }
+    .staff-review-category > span{
+        margin: 0;
+        padding-top: 30px;
+    }
+    .staff-title{
+        border-top: none;
+    }
+    .staff-title > h2{
+        white-space: nowrap;
+    }
+    .staff-title > p{
+        padding-top: 0;
+        font-size: 14px;
+        padding-top: 20px;
+    }
+
+    /* 総合レビュー */
+    .sp-users{
+        display: block;
+        width: 20%;
+        padding-left: 5%;
+        padding-top: 50px;
+    }
+    .users-span{
+        display: none;
+    }
+    .users > .users-title > p{
+        padding-top: 0;
+    }
+    .users-title{
+        margin: 0;
+    }
+
+    /* e☆イヤホンの読みもの！ */
+    .sp-reading{
+        display: block;
+        width: 20%;
+        padding-top: 50px;
+    }
+    .rea-span{
+        display: none;
+    }
+    .reading-more{
+        margin-top: 0;
+        border-top: none;
+    }
+    .reading-more > p{
+        padding-top: 0;
+        margin: 0;
+        font-size: 14px;
+    }
+    .reading-more > h2{
+        margin: 0;
     }
 
     /* footer */

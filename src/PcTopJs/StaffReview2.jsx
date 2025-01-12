@@ -1,15 +1,36 @@
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import StaffReviewData from "../data/StaffReview.json";
 import StaffIcon from "/top-staff.png"
 
 function StaffReview2() {
     
     const [ selectReview, setSelectReview] = useState("NewReview");
+    const [ isMobile, setIsMobile] = useState(window.innerWidth <= 768)
+    // const [isMobile, setIsMobile] = useState(window.innerWidth <= 768);
     const reviewList = StaffReviewData.Staffreview[selectReview];
+
+
+
+  // 画面サイズ変更時にスマホ判定を更新
+  useEffect(() => {
+    const handleResize = () => {
+      setIsMobile(window.innerWidth <= 428);
+    };
+
+    window.addEventListener("resize", handleResize);
+    return () => {
+      window.removeEventListener("resize", handleResize);
+    };
+  }, []);
+
+  // 表示するレビューを制御
+  const displayedReviews = isMobile ? reviewList.slice(0, 1) : reviewList;
+
     
     return(
         <>
         <div className="staff-review-contents">
+            <img className="sp-staff" src={StaffIcon} alt="" />
             <div className="staff-title">
             <div className="staff-title">
             <h2><span ><img className="staff-span" src={StaffIcon} alt="キャラクター" /></span>スタッフレビュー</h2>
@@ -30,7 +51,7 @@ function StaffReview2() {
             <p>もっと見る</p>
             </div>
             <div className="review-list">
-                {reviewList.map((review, index) => (
+                {displayedReviews.map((review, index) => (
                     <div className="review-card" key={index}>
                         <img src={review.img} className="img-big" alt="商品の写真" />
                         <p className="reviews-brand">{review.brand}</p>
