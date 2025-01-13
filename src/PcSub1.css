@@ -281,7 +281,10 @@
 /* スマホのsearchform */
 .sp-search-form{
     display: none;
-
+}
+/* スマホのパンクズリスト */
+.sp-breadlist{
+    display: none;
 }
 
 
@@ -291,15 +294,59 @@
     }
     .sp-search-form{
         display: block;
+        padding-left: 5%;
+        padding-right: 5%;
+
     }
-    .sp-form-name{
-        text-align: center;
-    }
+  
     .sp-formContainer{
         border: 1px black solid;
-        margin-left: 5%;
-        margin-right: 5%;
+        /* margin-left: 5%;
+        margin-right: 5%; */
         border-radius: 3px;
-        padding: 5px 10px;
+        padding: 10px 10px;
     }
-}
+    .sp-form-name{
+        font-size: 20px;  
+    }
+    .sp-money-form{
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+    .sp-input-keyword{
+        padding: 2% 10%;
+    }
+    .sp-select-keyword{
+        padding: 2% 8%;
+    }
+    .sp-brand-keyword{
+        padding: 2% 4%;
+    }
+    .sp-form-brand{
+        margin-left: 5%;
+    }
+    .sp-search-btn{
+        margin-top: 20px;
+        text-align: right;
+    }
+    .sp-handleReset{
+        font-size: 8px;
+        margin-right: 10px;
+    }
+    .sp-submit{
+        font-size: 16px;
+        padding: 5px 50px;
+        color: #fff;
+        background-color: #F08300;
+        border: #F08300;
+        border-radius: 3px;
+    }
+
+    /* スマホのパンクズリスト */
+    .sp-breadlist{
+        display: block;
+        display: flex;
+        font-size: 14px;
+    }
+    }

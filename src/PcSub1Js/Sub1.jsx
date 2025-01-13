@@ -10,11 +10,15 @@ import SecondHand from "./SecondHand/SecondHand"
 
 // import Sub1 from '../Sub1.css'
 import SpSearchForm from "../SPSub1/SpSearchForm"
+import HamburgerMenu from "../SPTopJs/HamburgerMenu"
+import SpBreadList from "../SPSub1/SpBreadList"
 
 function Sub1() {
     return(
         <>
         <Header />
+        <HamburgerMenu />
+        <SpBreadList />
         <SpSearchForm />
         <div className="money">
             <BreadList />
