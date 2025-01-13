@@ -286,6 +286,10 @@
 .sp-breadlist{
     display: none;
 }
+/* スマホの買取商品の部分 */
+.sp-second-container{
+    display: none;
+}
 
 
 @media screen and (min-width:375px)  and (max-width:428px) {
@@ -349,4 +353,17 @@
         display: flex;
         font-size: 14px;
     }
+    /* スマホの買取商品の部分 */
+    .sp-second-container{
+        display: block;
     }
+    .second-card{
+        width: 45%;
+    }
+    .sp-second-item-list{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 5px;
+    }
+}

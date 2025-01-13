@@ -12,7 +12,7 @@ import SecondHand from "./SecondHand/SecondHand"
 import SpSearchForm from "../SPSub1/SpSearchForm"
 import HamburgerMenu from "../SPTopJs/HamburgerMenu"
 import SpBreadList from "../SPSub1/SpBreadList"
-
+import SpSecondHand from "../SPSub1/SpSecondHand"
 function Sub1() {
     return(
         <>
@@ -20,6 +20,7 @@ function Sub1() {
         <HamburgerMenu />
         <SpBreadList />
         <SpSearchForm />
+        <SpSecondHand />
         <div className="money">
             <BreadList />
             <div className="second-items">
