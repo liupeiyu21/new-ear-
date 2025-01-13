@@ -6,14 +6,16 @@ import MoneyCategory from "./MoneyCategory"
 import SearchForm from "./SearchForm"
 import BrandsSearch from "./BrandsSearch"
 import SecondHand from "./SecondHand/SecondHand"
-import Recentlycheck from "../PcTopJs/Recentlycheck"
+// import Recentlycheck from "../PcTopJs/Recentlycheck"
 
 // import Sub1 from '../Sub1.css'
+import SpSearchForm from "../SPSub1/SpSearchForm"
 
 function Sub1() {
     return(
         <>
         <Header />
+        <SpSearchForm />
         <div className="money">
             <BreadList />
             <div className="second-items">

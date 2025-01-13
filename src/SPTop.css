@@ -38,7 +38,6 @@
     z-index: 999999;
     color: #4F4E4B;
 }
-
 .menu{
     position: fixed;
     top: 0;
@@ -53,6 +52,120 @@
 .menu.open{
     left: 0;
 }
+
+.menu-btn{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+.menu-btn1{
+    padding: 5px 28px;
+    font-size: 14px;
+    background-color: #F08300;
+    color: #fff;
+    border: #F08300;
+    border-radius: 3px;
+}
+.menu-btn2{
+    padding: 5px 16px;
+    font-size: 14px;
+    background-color: #F08300;
+    color: #fff;
+    border: #F08300;
+    border-radius: 3px;
+}
+
+.menu-love > h3 {
+    padding-left: 3%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: #FCF9EB;
+}
+.tfheart{
+    text-align: center;
+}
+.hamburger-fas{
+    font-size: 30px;
+}
+.sp-hamburger-cago{
+    padding-left: 3%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: #FCF9EB;
+    margin-bottom: 0;
+    color: #707070;
+}
+
+
+
+
+
+
+/* ハンバーガーメニューのカテゴリー部分 新品　中古。。。。。*/
+.cp_menu {
+	max-width: 360px;
+	margin: 0 auto;
+	padding: 0;
+}
+.cp_menu a {
+	display: block;
+	padding: 10px;
+	text-decoration: none;
+	color: #000000;
+	line-height: 1;
+}
+.cp_menu label {
+	display: block;
+	position: relative;
+	margin: 0 0 2px 0;
+	padding: 12px;
+	line-height: 1;
+	color: #ffffff;
+	background: #F08300;
+	cursor: pointer;
+}
+.cp_menu label::before {
+	position: absolute;
+	content: '▼';
+	color: #ffffff;
+	right: 0.5em;
+	top: 25%;
+}
+.cp_menu input {
+	display: none;
+}
+.cp_menu ul {
+	margin: 0;
+	padding: 0;
+	background: #f4f4f4;
+	list-style: none;
+}
+.cp_menu li {
+	overflow-y: hidden;
+	max-height: 0;
+	transition: all 0.5s;
+    
+}
+/*リストが増えたらULごとに追加してください*/
+#cp_menu_bar1:checked ~ #link1 li,
+#cp_menu_bar2:checked ~ #link2 li,
+#cp_menu_bar3:checked ~ #link3 li{
+	max-height: 46px;
+	opacity: 1;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
