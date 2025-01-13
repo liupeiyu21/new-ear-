@@ -10,7 +10,9 @@ function UserRe ({img,name,age,time,description}) {
     return(
         <>
         <div className="users-re">
+            <div className='picture-sun'>
             <img src={Sun} alt="ユーザーのアカウントのアイコンです。" />
+            </div>
             <div className=" user-age"> 
                 <p className="users-name">{name}</p>
                 <p className="users-age">{age}</p>

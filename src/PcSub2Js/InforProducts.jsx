@@ -18,7 +18,7 @@ function InforProducts()  {
                 <h3>AirPods Pro MWP22J/A</h3>
                 <p className='info-best-price'>最高買取金額</p>
                 <p className='infor-price'>￥17,000<span>円</span></p>
-                <p className=''><small>実際の商品状態により買取価格が変動する場合がございます。</small></p>
+                <p className='infor-small'><small>実際の商品状態により買取価格が変動する場合がございます。</small></p>
                 <button>買取申し込み</button>
             </div>
         </div> 

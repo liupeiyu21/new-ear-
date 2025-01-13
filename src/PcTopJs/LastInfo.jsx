@@ -4,7 +4,7 @@ import React from "react";
 function Lastinfo (){
     return(
         <>
-        <div className="last">
+        <div className="sp-last">
         <ul className="last-info">
             <li><a href="#">会社概要</a></li>
             <li><a href="#">プライバシーポリシー　</a></li>

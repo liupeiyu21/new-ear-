@@ -13,6 +13,8 @@ import SpSearchForm from "../SPSub1/SpSearchForm"
 import HamburgerMenu from "../SPTopJs/HamburgerMenu"
 import SpBreadList from "../SPSub1/SpBreadList"
 import SpSecondHand from "../SPSub1/SpSecondHand"
+import Spfooter from "../SPTopJs/Spfooter"
+import Lastinfo from "../PcTopJs/LastInfo"
 function Sub1() {
     return(
         <>
@@ -21,6 +23,8 @@ function Sub1() {
         <SpBreadList />
         <SpSearchForm />
         <SpSecondHand />
+        <Spfooter />
+        <Lastinfo />
         <div className="money">
             <BreadList />
             <div className="second-items">

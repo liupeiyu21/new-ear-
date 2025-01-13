@@ -36,7 +36,7 @@ function NoPurchase () {
     }
     return(
         <>
-            <div >
+            <div className="no-purchase">
                 <h2 
                 className="togglesell"
                 onClick={toggleSell}

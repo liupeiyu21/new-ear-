@@ -290,6 +290,10 @@
 .sp-second-container{
     display: none;
 }
+/* スマホのfooterの最後の情報 */
+.sp-last{
+    display: none;
+}
 
 
 @media screen and (min-width:375px)  and (max-width:428px) {
@@ -353,7 +357,16 @@
         display: flex;
         font-size: 14px;
     }
-    /* スマホの買取商品の部分 */
+    /* スマホのsub1の買取商品の部分 */
+    .second-label{
+        font-size: 16px;
+    }
+    .second-select{
+        font-size: 14px;
+    }
+    .second-form{
+        margin-top: 50px;
+    }
     .sp-second-container{
         display: block;
     }
@@ -365,5 +378,9 @@
         flex-wrap: wrap;
         justify-content: center;
         gap: 5px;
+    }
+    /* スマホのfooterの最後の情報 */
+    .sp-last{
+        display: block;
     }
 }
