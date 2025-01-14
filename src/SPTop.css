@@ -23,7 +23,7 @@
     position: fixed;
     top: 70px;
     left: 3%;
-    z-index: 999999;
+    z-index: 998;
 }
 .line{
     width: 100%;
@@ -35,7 +35,7 @@
     position: fixed;
     top: 60px;
     right: 3%;
-    z-index: 999999;
+    z-index: 998;
     color: #4F4E4B;
 }
 .menu{
@@ -43,7 +43,7 @@
     top: 0;
     left: -100%;
     z-index: 998;
-    padding-top: 100px;
+    padding-top: 30px;
     background-color: #efefef;
     width: 90%; 
     height: 100%;
@@ -96,6 +96,24 @@
     color: #707070;
 }
 
+
+
+.overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%; /* 画面全体の幅 */
+    height: 100%; /* 画面全体の高さ */
+    background: rgba(0, 0, 0, 0.5); /* 半透明の黒い背景 */
+    z-index: 998; /* サイドメニューの下に表示 */
+    display: none; /* 初期は非表示 */
+    transition: opacity 0.3s ease; /* スムーズな表示 */
+  }
+  
+  .overlay.active {
+    display: block; /* 表示される */
+    opacity: 1;
+  }
 
 
 
@@ -203,3 +221,8 @@
     }
   
 
+
+
+
+
+      

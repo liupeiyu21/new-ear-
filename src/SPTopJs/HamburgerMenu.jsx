@@ -9,22 +9,24 @@ import { TfiHeart } from "react-icons/tfi";
 function HamburgerMenu(){
     const [ isOpen, setIsOpen] = useState(false);
 
-    const toggleMenu = () => {
-        setIsOpen(!isOpen);
-    }
-
-    // const [ isMenu, setIsMenu] = useState(false);
-
-   
-    // const huamburgerMenuList = isMenu ? HumburgerMenuData.category : []; 
-   
-    // const clickMenu = () => {
-    //     setIsMenu(!isMenu)
+    // const toggleMenu = () => {
+    //     setIsOpen(!isOpen);
     // }
+    const toggleMenu = () => setIsOpen(true);
+    const closeMenu = () => setIsOpen(false);
+    // const openModal = () => setIsOpen(true);
+    // const closeModal = () => setIsOpen(false);
+  
+
 
     return(
         <>
         <div className="hamburger-menu">
+            <div 
+            class={`overlay ${isOpen ? 'active' : ''}`}
+            id="overlay"
+            onClick={closeMenu}
+            ></div>
             <div className={`hamburger-line ${isOpen ? 'open' : ''}`} onClick={toggleMenu}>
                 <div className="line1 line"></div>
                 <div className="line2 line"></div>
