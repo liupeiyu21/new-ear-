@@ -268,6 +268,14 @@
     font-size: 20px;
 }
 
+/* sub２ページのユーザーレビュー */
+.sp-users-re{
+    display: none;
+}
+.sp-users-infor-review > h2{
+    display: none;
+}
+
 @media screen and (min-width:375px) and (max-width:428px) {
   
     /* InforBreadList */
@@ -316,16 +324,78 @@
         border: #F08300;
     }
     /* 査定の手順について */
-    .rules{
-        display: none;
-    }
+   .steps-grid{
+    display: flex;
+    flex-direction: column;
+   }
+   .step-card{
+    width: 100%;
+   }
+   .step-description{
+    margin: 0;
+   }
+   .togglestep{
+    font-size: 24px;
+    padding: 20px;
+   }
+   .step-title{
+    font-size: 20px;
+   }
+   .step-description > p{
+    font-size: 14px;
+   }
     /* 買取不可の基準 */
-    .no-purchase{
-        display: none;
+    .sell-grid{
+        display: flex;
+        flex-direction: column;
     }
+    .nosell-description{
+        margin: 0;
+    }
+    .togglesell{
+        font-size: 24px;
+        padding: 20px 0;
+    }
+    .nosell-title{
+        font-size: 20px;
+    }
+    .nosell-description > p{
+        font-size: 14px;
+    }
+   
     /* ユーザーレビュー */
-    .users-infor-review{
+    .users-re{
         display: none;
     }
+    /* .users-infor-review{
+        display: none;
+    } */
+     .users-infor-review > h2{
+        font-size: 20px ;
+        padding: 20px;
+     }
+    .sp-users-re{
+        display: block;
+        display: flex;
+        flex-direction: column;
+     
+        border: 1px #efefef solid;
+        border-radius: 3px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.15);
+        margin-bottom: 20px;
+    }
+    .sp-img-info{
+        display: flex;
+        justify-content: center;
+    }
+    .picture-sun > img{
+        width: 90%;
+    }
+    .users-description{
+        font-size: 14px;
+        padding-bottom: 30px;
+    }
+  
+   
 }
 

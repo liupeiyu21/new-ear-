@@ -291,9 +291,9 @@
     display: none;
 }
 /* スマホのfooterの最後の情報 */
-.sp-last{
+/* .sp-last{
     display: none;
-}
+} */
 
 
 @media screen and (min-width:375px)  and (max-width:428px) {

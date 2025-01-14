@@ -9,6 +9,8 @@ import '../PcSub2.css'
 import Footer from "../PcTopJs/Footer";
 import Lastinfo from "../PcTopJs/LastInfo"
 import HamburgerMenu from "../SPTopJs/HamburgerMenu"
+import SpInforUserReview from "../SPSub2/SpInforUserReview"
+import Spfooter from "../SPTopJs/Spfooter"
 
 function MoreInformation () {
     return(
@@ -22,8 +24,10 @@ function MoreInformation () {
             
             <NoPurchase />
             <InforUserReview />
+            <SpInforUserReview />
         </div>
         <Footer />
+        <Spfooter />
         <Lastinfo />
         </>
     )
