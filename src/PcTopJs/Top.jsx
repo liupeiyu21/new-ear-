@@ -18,6 +18,7 @@ import HamburgerMenu from '../SPTopJs/HamburgerMenu'
 import SpSearch from "../SPTopJs/SpSearch"
 import Spfooter from "../SPTopJs/Spfooter"
 import '../Top.css'
+import ScrollToTopButton from "../PcTopJs/TopReset"
 
 function Top() {
     return(
@@ -42,6 +43,7 @@ function Top() {
      <Footer />
      <Spfooter />
      <Lastinfo />
+     <ScrollToTopButton />
         </>
     )
 }

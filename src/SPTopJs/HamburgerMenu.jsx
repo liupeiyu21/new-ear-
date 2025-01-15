@@ -23,7 +23,7 @@ function HamburgerMenu(){
         <>
         <div className="hamburger-menu">
             <div 
-            class={`overlay ${isOpen ? 'active' : ''}`}
+            className={`overlay ${isOpen ? 'active' : ''}`}
             id="overlay"
             onClick={closeMenu}
             ></div>
@@ -47,9 +47,9 @@ function HamburgerMenu(){
                     </div>
                     <h3 className="sp-hamburger-cago">カテゴリから探す</h3>
 
-                    <div class="cp_menu">
-                        <label for="cp_menu_bar1">新品</label>
-                        <input type="radio" name="radio" id="cp_menu_bar1" class="accordion" />
+                    <div className="cp_menu">
+                        <label htmlFor="cp_menu_bar1">新品</label>
+                        <input type="radio" name="radio" id="cp_menu_bar1" className="accordion" />
                         <ul id="link1">
                         <li><a href="">link01</a></li>
                         <li><a href="">link02</a></li>
@@ -61,8 +61,8 @@ function HamburgerMenu(){
                         <li><a href="">link04</a></li>
                         </ul>
                        
-                        <label for="cp_menu_bar2">中古</label>
-                        <input type="radio" name="radio" id="cp_menu_bar2" class="accordion" />
+                        <label htmlFor="cp_menu_bar2">中古</label>
+                        <input type="radio" name="radio" id="cp_menu_bar2" className="accordion" />
                         <ul id="link2">
                             <li><a href="">link01</a></li>
                             <li><a href="">link02</a></li>
@@ -70,8 +70,8 @@ function HamburgerMenu(){
                             <li><a href="">link04</a></li>
                         </ul>
 
-                        <label for="cp_menu_bar3">買取</label>
-                        <input type="radio" name="radio" id="cp_menu_bar3" class="accordion" />
+                        <label htmlFor="cp_menu_bar3">買取</label>
+                        <input type="radio" name="radio" id="cp_menu_bar3" className="accordion" />
                         <ul id="link3">
                             <li><Link to= "/買取金額を調べる">買取金額を調べる</Link></li>
                             <li><a href="">eイヤホンの買取サービス</a></li>

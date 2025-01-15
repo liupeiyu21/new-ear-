@@ -11,6 +11,7 @@ import Lastinfo from "../PcTopJs/LastInfo"
 import HamburgerMenu from "../SPTopJs/HamburgerMenu"
 import SpInforUserReview from "../SPSub2/SpInforUserReview"
 import Spfooter from "../SPTopJs/Spfooter"
+import ScrollToTopButton from "../PcTopJs/TopReset"
 
 function MoreInformation () {
     return(
@@ -29,6 +30,7 @@ function MoreInformation () {
         <Footer />
         <Spfooter />
         <Lastinfo />
+        <ScrollToTopButton />
         </>
     )
 }

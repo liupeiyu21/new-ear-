@@ -20,17 +20,18 @@ function Header() {
 
     return(
         <>
-        <div className="a">
-        <div className="pc-infor">
+        <div className="a" >
+          
+        <div className="pc-infor" id="top1">
                <TbMessageReportFilled className="infor-icon" />
-               <p>重要なお知らせ：</p>
+               <p >重要なお知らせ：</p>
                <p className="pc-infor-p2">e☆イヤホン年末年始の営業に関しまして</p>
         </div>
         <nav>
-        <div className="pc-header">
+        <div className="pc-header" >
             <p>世界中のイヤホン・ヘッドホンが試聴・買取・購入できる専門店</p>
             <div className="pc-category">
-                <h1>
+                <h1 id="top1">
                    <Link to= "/"><img src={Logo} className="sp-logo" alt="サイトのlogoです。" /></Link> 
                 </h1>
                
@@ -261,7 +262,7 @@ function Header() {
     
       </div>
         )}
-      
+       
         </>
     )
 }

@@ -401,4 +401,8 @@
     .sp-last{
         display: block;
     }
+    .top-reset{
+        width: 20%;
+       }
+    
 }

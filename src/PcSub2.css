@@ -275,6 +275,9 @@
 .sp-users-infor-review > h2{
     display: none;
 }
+.sp-last{
+    display: none;
+}
 
 @media screen and (min-width:375px) and (max-width:428px) {
   
@@ -395,7 +398,10 @@
         font-size: 14px;
         padding-bottom: 30px;
     }
-  
+    .top-reset{
+        width: 20%;
+       }
+    
    
 }
 

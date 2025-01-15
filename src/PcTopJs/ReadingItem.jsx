@@ -46,8 +46,8 @@ function ReadingItem() {
         >
         <div className="reading-card">
         
-            {data.map( () => (
-                <SwiperSlide>
+            {data.map( ( index) => (
+                <SwiperSlide key={index}>
                     <img src={Reading} alt="読み物のバナーです。" />
                     <h3 className="read-title">【2024年11月最新】 PS5におすすめのヘッドセット4選</h3>
                     <p className="read-sentence">ワイヤレスモデルや3Dオーディオに最適なモデルまでご紹介！</p>

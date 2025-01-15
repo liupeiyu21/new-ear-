@@ -11,6 +11,13 @@
 .sp-footer-infor{
     display: none;
 }
+.top-reset{
+    position: fixed;
+    top: 78%;
+    z-index: 9999999;
+    right: 0;
+}
+
 
 @media screen and (min-width:375px) and (max-width:428px){
     .hamburger-menu{

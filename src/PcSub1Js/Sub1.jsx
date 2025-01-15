@@ -15,6 +15,9 @@ import SpBreadList from "../SPSub1/SpBreadList"
 import SpSecondHand from "../SPSub1/SpSecondHand"
 import Spfooter from "../SPTopJs/Spfooter"
 import Lastinfo from "../PcTopJs/LastInfo"
+import ScrollToTopButton from "../PcTopJs/TopReset"
+
+
 function Sub1() {
     return(
         <>
@@ -38,9 +41,9 @@ function Sub1() {
                     {/* <Recentlycheck /> */}
                 </div>
             </div>
-        </div>
-        
+        </div>  
         <Footer />
+        <ScrollToTopButton />
         </>
     )
 

@@ -46,8 +46,8 @@ function HighPrice() {
            
         >
         <div className="recentlycheck-card">
-            {data.map( () => (
-                <SwiperSlide>
+            {data.map( ( index) => (
+                <SwiperSlide key={index}>
                     <img className="check-img" src={HightPri} alt="2" />
                     <p className="check-brand">ブランド名</p>
                     <p className="check-name">商品の名前</p>
