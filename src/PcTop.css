@@ -1216,6 +1216,14 @@ ul li a:hover{
         border-top: none;
         padding-top: 0;
     }
+    .check-price{
+        font-size: 16px;
+    }
+    .recentlycheck > .swiper > .swiper-wrapper > .swiper-slide{
+        box-shadow: 0 0 5px rgba(0, 0, 0, 0.15);
+    }
+
+
     /* Products 新着　中古　ランキング */
     .container-icon{
         display: none;
@@ -1250,12 +1258,18 @@ ul li a:hover{
         flex-wrap: wrap;
         /* justify-content: space-between; */
         gap: 0;
-        margin-right: 5%;
+        /* margin-right: 3%; */
       }
     .item-card{
         padding-left: 0;
         padding-right: 0;
         width: 45%;
+        padding: 3px 5px;
+        box-shadow: 0 0 5px rgba(0, 0, 0, 0.15);
+        border-radius: 5px;
+    }
+    .item-card > img{
+        width: 100%;
     }
     .Linkbtn{
         text-align: center;
@@ -1269,6 +1283,9 @@ ul li a:hover{
     }
     .linkbtn:hover{
         background-color: #e9b97f;
+    }
+    .products-price{
+        font-size: 16px;
     }
 
     /* 高価買取中 */
@@ -1321,6 +1338,9 @@ ul li a:hover{
         padding-top: 0;
         font-size: 14px;
         padding-top: 20px;
+    }
+    .heighprice > .swiper > .swiper-wrapper > .swiper-slide{
+        box-shadow: 0 0 5px rgba(0, 0, 0, 0.15);
     }
 
     /* 総合レビュー */
