@@ -40,7 +40,7 @@ export default function FastView() {
                 spaceBetween:15,
             }
         }}
-        // loop = {{loop: true}}
+        loop = {{loop: true}}
         scrollbar={{ draggable: true }}
         pagination={{ clickable: true }}
         cssMode={true}

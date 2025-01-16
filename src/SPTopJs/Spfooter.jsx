@@ -1,3 +1,6 @@
+
+
+
 function Spfooter() {
     return(
         <>
@@ -10,6 +13,7 @@ function Spfooter() {
             <p>お問合せ</p>
             <p>求人情報</p>
         </div> 
+
         </>
     )
 }

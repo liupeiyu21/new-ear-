@@ -15,6 +15,7 @@ html body{
 
 
 /* headerのCSS */
+
 .pc-infor{
     display: flex;
     justify-content: center;
@@ -463,7 +464,7 @@ h1 > img{
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    gap: 2.5%;
+    /* gap: 2.5%; */
   }
  .container-icon{
     padding-top: 30px;
@@ -1166,6 +1167,16 @@ ul li a:hover{
 
 
 @media screen and (min-width:375px) and (max-width:428px) {
+
+    .a{
+        position: sticky;
+        top: 0;
+        left: 0;
+        width: 100%;
+        background-color: #fff;
+        z-index: 998;
+    }
+    
     h2{
         font-size: 18px;
     }
@@ -1193,6 +1204,12 @@ ul li a:hover{
     /* fastview ファストビュー */
     .fastview-swiper{
         padding-top: 0;
+    }
+    .fastview-swiper > .swiper > .swiper-button-next{
+        display: none;
+    }
+    .fastview-swiper > .swiper > .swiper-button-prev{
+        display: none;
     }
     /* bannerの部分 */
     .banner-swiper > .swiper > .swiper-wrapper > .swiper-slide > img{
@@ -1222,6 +1239,12 @@ ul li a:hover{
     .recentlycheck > .swiper > .swiper-wrapper > .swiper-slide{
         box-shadow: 0 0 5px rgba(0, 0, 0, 0.15);
     }
+    /* .recentlycheck > .swiper > .swiper-button-prev{
+        display: none;
+    }
+    .recentlycheck > .swiper > .swiper-button-next{
+        display: none;
+    } */
 
 
     /* Products 新着　中古　ランキング */
@@ -1449,7 +1472,7 @@ ul li a:hover{
    }
 
    .top-reset{
-    width: 20%;
+    display: none;
    }
 
 }

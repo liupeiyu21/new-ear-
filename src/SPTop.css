@@ -1,13 +1,6 @@
 
 /* header 上に固定する */
-.a{
-    position: sticky;
-    top: 0;
-    left: 0;
-    width: 100%;
-    background-color: #fff;
-    z-index: 998;
-}
+
 
 /* hamburgerメニュー */
 

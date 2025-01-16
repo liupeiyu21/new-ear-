@@ -14,11 +14,12 @@
 .money{
     display: flex;
     flex-direction: column;
-    
-}
-.product-search{
+    padding-left: 5%;
     padding-right: 5%;
 }
+/* .product-search{
+    padding-left: 5%;
+} */
 
 
 
@@ -32,10 +33,13 @@
 }
 .breadlist  {
     padding: 0;
-    margin-left: 5%;
+    /* margin-left: 5%; */
 }
 .breadlist > li {
     padding-right: 20px;
+}
+.sp-sub1-img{
+    display: none;
 }
 
 /* category　金額を調べるカテゴリー */
@@ -294,6 +298,9 @@
 /* .sp-last{
     display: none;
 } */
+ .sp-sub2{
+    display: none;
+ }
 
 
 @media screen and (min-width:375px)  and (max-width:428px) {
@@ -356,6 +363,10 @@
         display: block;
         display: flex;
         font-size: 14px;
+        padding-left: 5%;
+    }
+    .sp-sub1-img{
+        display: block;
     }
     /* スマホのsub1の買取商品の部分 */
     .second-label{
@@ -405,4 +416,9 @@
         width: 20%;
        }
     
+       .sp-sub1-img{
+        position: fixed;
+        top: 78%;
+
+       }
 }
