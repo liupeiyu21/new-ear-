@@ -268,9 +268,12 @@ h1 > img{
     padding: 10px 5px;
     cursor: pointer;
 }
+
+/* topページ、クリックしたら、前に出てくる検索枠 */
+
 .modal-overlay{
     background-color: #b9b4b4;
-    opacity: 0.8;
+    opacity: 0.9;
     position: fixed;
     top: 0;
     right: 0;

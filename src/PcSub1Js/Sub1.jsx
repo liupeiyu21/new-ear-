@@ -16,7 +16,7 @@ import SpSecondHand from "../SPSub1/SpSecondHand"
 import Spfooter from "../SPTopJs/Spfooter"
 import Lastinfo from "../PcTopJs/LastInfo"
 import ScrollToTopButton from "../PcTopJs/TopReset"
-
+// import SubBrandSearch from "../PcSub1Js/SubBrandSearch"
 
 function Sub1() {
     return(
@@ -44,6 +44,7 @@ function Sub1() {
         </div>  
         <Footer />
         <ScrollToTopButton />
+        {/* <SubBrandSearch /> */}
         </>
     )
 

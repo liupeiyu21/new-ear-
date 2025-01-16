@@ -200,6 +200,13 @@
     margin-bottom: 0;
     font-size: 20px;
 }
+.brand-h4:hover{
+    color: #F08300;
+    cursor: pointer;
+}
+
+
+
 
 /* SecondHandのCSS */
 
@@ -301,6 +308,104 @@
  .sp-sub2{
     display: none;
  }
+
+
+
+
+
+/* SubBrandSearchのcss */
+.pc-sub1-brand{
+    width: 60%;
+    position: fixed;
+    top: 23%;
+    left: 25%;
+    background-color: #fff;
+    border: 3px #F08300 solid;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 0 20px #a29e9e;
+    z-index: 100000000;
+}
+.all-brand-letter{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+.all-brand-letter > span{
+    padding: 5px 10px;
+    border: 1px black solid;
+}
+.brand-letter{
+    display: flex;
+}
+.brand-a > h4,p{
+    margin: 0;
+}
+
+
+
+
+.close-button {
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    background: orange;
+    border-radius: 50%;
+    padding: 0;
+    border: transparent;
+    cursor: pointer;
+    top: 5px;
+    right: 5px;
+  }
+
+  .close-button span {
+    width: 25px;
+    height: 2px;
+    background: #fff;
+    display: inline-block;
+    position: absolute;
+    left: calc(50% - 12px);
+    top: 50%;
+    border-radius: 20px;
+  }
+  
+  .close-button span:nth-child(1) {
+    transform: rotate(45deg) translate(-1px, -1px);
+  }
+  
+  .close-button span:nth-child(2) {
+    transform: rotate(-45deg) translate(1px, -1px);
+  }
+
+.sub-brand-search{
+    display: none;
+}
+.active{
+    display: block;
+}
+
+
+
+.overlays {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%; /* 画面全体の幅 */
+    height: 100%; /* 画面全体の高さ */
+    background: rgba(0, 0, 0, 0.5); /* 半透明の黒い背景 */
+
+    display: none; /* 初期は非表示 */
+    transition: opacity 0.3s ease; /* スムーズな表示 */
+  }
+  
+  .overlays.active {
+    display: block; /* 表示される */
+    opacity: 1;
+  }
+
+
+
+
 
 
 @media screen and (min-width:375px)  and (max-width:428px) {
