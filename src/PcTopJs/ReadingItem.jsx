@@ -15,7 +15,7 @@ function ReadingItem() {
         <img className="sp-reading" src={ReadIcon} alt="" />
         <div className="reading-more">
             <h2><img className="rea-span" src={ReadIcon} alt="キャラクター" />e☆イヤホンの読みもの！</h2>
-            <p>もっと見る</p>
+            {/* <p>もっと見る</p> */}
         </div>
         <Swiper
            modules={[Pagination, Navigation]}
@@ -59,6 +59,10 @@ function ReadingItem() {
         </div>
             
         </Swiper>
+
+        <div className="products-btn">
+            <button className="pc-products-btn">すべて見る</button>
+        </div>
     </div>
         </>
     )

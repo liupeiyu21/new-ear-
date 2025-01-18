@@ -316,6 +316,7 @@
 /* SubBrandSearchのcss */
 .pc-sub1-brand{
     width: 60%;
+    height: 60%;
     position: fixed;
     top: 23%;
     left: 25%;
@@ -325,6 +326,7 @@
     padding: 20px;
     box-shadow: 0 0 20px #a29e9e;
     z-index: 100000000;
+    overflow: scroll;
 }
 .all-brand-letter{
     display: flex;
@@ -344,9 +346,10 @@
 
 
 
+/* ❌のボタン */
 
 .close-button {
-    position: absolute;
+    position: fixed;
     width: 50px;
     height: 50px;
     background: orange;
@@ -354,8 +357,9 @@
     padding: 0;
     border: transparent;
     cursor: pointer;
-    top: 5px;
-    right: 5px;
+    top: 23%;
+    right: 13%;
+
   }
 
   .close-button span {
@@ -396,11 +400,13 @@
 
     display: none; /* 初期は非表示 */
     transition: opacity 0.3s ease; /* スムーズな表示 */
+    
   }
   
   .overlays.active {
     display: block; /* 表示される */
     opacity: 1;
+
   }
 
 

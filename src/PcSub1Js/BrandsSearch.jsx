@@ -83,8 +83,14 @@ function BrandsSearch() {
 
         const [ isOpen, setIsOpen] = useState(false);
 
-        const toggleMenu = () => setIsOpen(true);
-        const closeMenu = () => setIsOpen(false);
+        const toggleMenu = () => {
+            setIsOpen(true);
+            document.body.style.overflow = "hidden";
+        }
+        const closeMenu = () => {
+            setIsOpen(false);
+            document.body.style.overflow = "";
+        }
 
     return(
         <>
@@ -115,6 +121,7 @@ function BrandsSearch() {
         // className={`sub-brand-search ${}` }
         className={`sub-brand-search ${isOpen ? "active" : ""}`}
         >
+             
               <div className="pc-sub1-brand">
                 <h2>ブランド一覧から探す</h2>
                 <div className="all-brand-letter">
@@ -187,6 +194,98 @@ function BrandsSearch() {
                         <p>ビーツ（0）</p>
                     </div>
                 </div>
+
+
+                <h3>B</h3>
+                <div className="brand-letter">
+                   
+                    <div className="brand-a">
+                        <h4>Beats</h4>
+                        <p>ビーツ（0）</p>
+                    </div>
+                    <div className="brand-a">
+                        <h4>Beats</h4>
+                        <p>ビーツ（0）</p>
+                    </div>
+                    <div className="brand-a">
+                        <h4>Beats</h4>
+                        <p>ビーツ（0）</p>
+                    </div>
+                    <div className="brand-a">
+                        <h4>Beats</h4>
+                        <p>ビーツ（0）</p>
+                    </div>
+                </div>
+
+
+                <h3>B</h3>
+                <div className="brand-letter">
+                   
+                    <div className="brand-a">
+                        <h4>Beats</h4>
+                        <p>ビーツ（0）</p>
+                    </div>
+                    <div className="brand-a">
+                        <h4>Beats</h4>
+                        <p>ビーツ（0）</p>
+                    </div>
+                    <div className="brand-a">
+                        <h4>Beats</h4>
+                        <p>ビーツ（0）</p>
+                    </div>
+                    <div className="brand-a">
+                        <h4>Beats</h4>
+                        <p>ビーツ（0）</p>
+                    </div>
+                </div>
+
+
+                <h3>B</h3>
+                <div className="brand-letter">
+                   
+                    <div className="brand-a">
+                        <h4>Beats</h4>
+                        <p>ビーツ（0）</p>
+                    </div>
+                    <div className="brand-a">
+                        <h4>Beats</h4>
+                        <p>ビーツ（0）</p>
+                    </div>
+                    <div className="brand-a">
+                        <h4>Beats</h4>
+                        <p>ビーツ（0）</p>
+                    </div>
+                    <div className="brand-a">
+                        <h4>Beats</h4>
+                        <p>ビーツ（0）</p>
+                    </div>
+                </div>
+
+
+
+                <h3>B</h3>
+                <div className="brand-letter">
+                   
+                    <div className="brand-a">
+                        <h4>Beats</h4>
+                        <p>ビーツ（0）</p>
+                    </div>
+                    <div className="brand-a">
+                        <h4>Beats</h4>
+                        <p>ビーツ（0）</p>
+                    </div>
+                    <div className="brand-a">
+                        <h4>Beats</h4>
+                        <p>ビーツ（0）</p>
+                    </div>
+                    <div className="brand-a">
+                        <h4>Beats</h4>
+                        <p>ビーツ（0）</p>
+                    </div>
+                </div>
+
+
+
              
                     <button 
                     className="close-button"

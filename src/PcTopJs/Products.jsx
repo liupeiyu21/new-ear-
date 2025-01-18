@@ -35,7 +35,7 @@ function Products(){
                  onChange={(e) => setSelectProduct(e.target.value)}
             >ランキング</h2>
         </div>
-        <p className="p">もっと見る</p>
+        
         </div>
         <div className="item-list">
         {productList.map((product, index) => (
@@ -59,11 +59,10 @@ function Products(){
         ))
         }
         </div>
-        <div className="Linkbtn">
-            <button className="linkbtn">すべて見る</button>
+        <div className="products-btn">
+            <button className="pc-products-btn">すべて見る</button>
         </div>
-
-</div>
+    </div>
 
     )
 }

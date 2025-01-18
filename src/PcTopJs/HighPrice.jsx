@@ -16,7 +16,7 @@ function HighPrice() {
         <img className="sp-heigh" src={HeighIcon} alt="" />
         <div className="heigh-more">
             <h2><img className="he-span" src={HeighIcon} alt="キャラクター" />高価買取中</h2>
-            <p>もっと見る</p>
+            {/* <p>もっと見る</p> */}
         </div>
         <Swiper
            modules={[Pagination, Navigation]}
@@ -60,6 +60,9 @@ function HighPrice() {
         </div>
             
         </Swiper>
+        <div className="products-btn">
+            <button className="pc-products-btn">すべて見る</button>
+        </div>
     </div>
         </>
     )

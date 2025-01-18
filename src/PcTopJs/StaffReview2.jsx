@@ -48,7 +48,7 @@ function StaffReview2() {
                 
             </div>
             </div>
-            <p>もっと見る</p>
+            {/* <p>もっと見る</p> */}
             </div>
             <div className="review-list">
                 {displayedReviews.map((review, index) => (
@@ -69,9 +69,9 @@ function StaffReview2() {
                 ))
                 }
             </div>
-            {/* <div className="staff-btns">
-            <button className="staff-review-btn">もっと見る</button>
-            </div> */}
+            <div className="products-btn2">
+            <button className="pc-products-btn">すべて見る</button>
+        </div>
         </div>
         </>   
     )

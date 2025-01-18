@@ -458,10 +458,13 @@ h1 > img{
     margin-top: 30px;
     margin-bottom: 0;
     margin-left: 20px;
+    color: #b9b5b5;
+    font-size: 20px;
   }
   .heading > h2.active{
     color: #F08300;
     box-shadow: 0 2px 0 0 #F08300;
+    font-size: 24px;
   }
   .item-list{
     display: flex;
@@ -481,13 +484,13 @@ h1 > img{
     border-top: 1px #efefef solid;
     border-bottom: 1px #efefef solid;
   }
-  .container-more > p{
+  /* .container-more > p{
     padding-top: 90px;
     font-size: 18px;
     font-weight: bold;
     cursor: pointer;
     color: #F08300;
-  }
+  } */
   .item-list{
     padding-top: 30px;
   }
@@ -545,6 +548,26 @@ h1 > img{
     font-weight: bold;
     color: #de5d50;
   }
+  .products-btn{
+    text-align: right;
+  }
+
+  .pc-products-btn{
+    padding: 10px 70px;
+    margin-top: 10px;
+    margin-bottom: 30px;
+    background-color: #F08300;
+    color: #fff;
+    border: #F08300;
+    font-size: 20px;
+    border-radius: 5px;
+    box-shadow: 0 5px 1px 1px #928f8f;
+    cursor: pointer;
+  }
+  .pc-products-btn:hover{
+    transform: translate(0, 5px);
+    box-shadow: 0 0 0 0 ;
+  }
  
 
 /* 高額買取中は最近チェック　同CSSを共用している */
@@ -591,13 +614,13 @@ h1 > img{
     border-top: 1px #efefef solid;
     border-bottom: 1px #efefef solid;
 }
-.heigh-more > p{
+/* .heigh-more > p{
     padding-top: 90px;
     font-size: 18px;
     font-weight: bold;
     cursor: pointer;
     color: #F08300;
-}
+} */
 
 /* staffReview　スタッフのレビュー文 */
 .staff-review-contents{
@@ -611,12 +634,12 @@ h1 > img{
     border-top: 1px #efefef solid;
     border-bottom: 1px #efefef solid;
 }
-.staff-title > p{
+/* .staff-title > p{
     padding-top: 130px;
     margin-bottom: 0;
     color: #F08300;
     font-size: 18px;
-}
+} */
 .review-list{
     display: flex;
     justify-content: space-between;
@@ -643,6 +666,12 @@ h1 > img{
  }
 .staff-review-category > span{
     margin: 0 30px;
+    font-size: 14px;
+    color: #b9b5b5;;
+}
+.staff-review-category > span.review{
+    color: #F08300;
+    font-size: 16px;
 }
 .review{
     color: #F08300;
@@ -673,7 +702,10 @@ h1 > img{
     font-size: 18px;
     padding: 15px 80px;
 }
-
+.products-btn2{
+    text-align: right;
+    margin-top: 20px;
+}
 
 
 /* User review　ユーザーのレビュー文です */
@@ -687,9 +719,12 @@ h1 > img{
     display: flex;
     justify-content: space-between;
   
-    margin-top: 50px;
+    margin-top: 20px;
     margin-bottom: 30px;
-    
+    border-top: 1px #efefef solid;
+    border-bottom: 1px #efefef solid;
+    margin-left: 5%;
+    margin-right: 5%;
 }
 .users-title  > p{
     padding-right: 5%;
@@ -715,7 +750,7 @@ h1 > img{
 }
 .users-so{
     margin-bottom: 30px;
-   padding-left: 5%;
+   
 }
 .users-btns{
     text-align: center;
@@ -732,24 +767,30 @@ h1 > img{
     font-size: 24px;
 }
 
+.products-btn1{
+    text-align:right;
+    margin-right: 5%;
+    margin-top: 20px;
+}
+
 /* e☆イヤホンの読みもの！ */
 .reading-item{
     padding-left: 5%;
     padding-right: 5%;
-
+    border-bottom: 1px #efefef solid;
 }
 .reading-more{
     display: flex;
     justify-content: space-between;
     border-top: 1px #efefef solid;
     border-bottom: 1px #efefef solid;
-    margin-top: 50px;
+    margin-top: 10px;
 }
-.reading-more > p{
+/* .reading-more > p{
     padding-top: 140px;
     font-size: 18px;
     color: #F08300;
-}
+} */
 .reading-item > .swiper > .swiper-wrapper > .img{
     width: 100%;
     border-radius: 10px;
@@ -789,7 +830,7 @@ h1 > img{
 
 .recom{
     background-color: #FCF9E8;    
-    margin-top: 100px;  
+    margin-top: 50px;  
     padding-bottom: 40px;
 }
 .recom-tile{
@@ -807,6 +848,7 @@ h1 > img{
 .recom-content{
     display: flex;
     justify-content: space-between;
+    margin: 0 11%;
 }
 
 /* .recom-img > img{
@@ -828,13 +870,14 @@ h1 > img{
     border-radius: 0 0 10px 10px;
     text-align: left;
     background-color: #fff;
-    padding: 10px 5px ;
+    padding: 10px 30px ;
     font-size: 14px;
 }
 .recom-imgs{
     display: flex;
     justify-content: space-between;
-    margin-top: 30px;
+    /* margin-top: 30px; */
+    margin: 30px 11% 0;
 }
 .recom-imgs img{
     width: 30%;
@@ -859,8 +902,8 @@ h1 > img{
     display: flex;
     justify-content: center;
     margin-top: 100px;
-   margin-right: 5%;
-   margin-left: 5%;
+   margin-right: 11%;
+   margin-left: 11%;
 }
 .news{
     width: 50%;
@@ -868,8 +911,8 @@ h1 > img{
     text-align: center
 }
 .news > p{
-    margin-right: 40px;
-    padding:  50px 0;
+    margin-right: 0px;
+    padding:  10px 0;
     font-size: 16px;
 }
 .news > h2{
@@ -933,6 +976,7 @@ h1 > img{
 .guidance-method{
     display: flex;
     flex-direction: row;
+    padding-bottom: 20px;
 }
 .band{
     font-size: 12px;
@@ -960,6 +1004,13 @@ h1 > img{
     padding: 5px; 
     margin-left: 0;
     margin-right: 20px;
+}
+.guidance-free > a{
+    text-decoration: none;
+    padding-left: 3%;
+}
+.guidance-free > a:hover{
+    color: #F08300;
 }
 
 /* cooperate 相互リンク*/
@@ -1275,9 +1326,9 @@ ul li a:hover{
     .p{
         display: none;
     }
-    h2.active{
+    .heading > h2.active{
         font-size: 18px;
-        padding-top: 0;
+        /* padding-top: 0; */
     }
     .item-list{
         display: flex;
@@ -1313,6 +1364,13 @@ ul li a:hover{
     .products-price{
         font-size: 16px;
     }
+    .products-btn{
+        text-align: center;
+    }
+    .pc-products-btn{
+        padding: 5px 50px;
+    }
+
 
     /* 高価買取中 */
     .sp-heigh{
@@ -1369,6 +1427,10 @@ ul li a:hover{
         box-shadow: 0 0 5px rgba(0, 0, 0, 0.15);
     }
 
+    .products-btn2{
+        text-align: center;
+    }
+
     /* 総合レビュー */
     .sp-users{
         display: block;
@@ -1385,7 +1447,12 @@ ul li a:hover{
     .users-title{
         margin: 0;
     }
-
+    .products-btn1{
+        text-align: center;
+    }
+    .users-so{
+        margin-left: 3%;
+    }
     /* e☆イヤホンの読みもの！ */
     .sp-reading{
         display: block;
@@ -1411,10 +1478,24 @@ ul li a:hover{
     .recom-content{
         display: flex;
         flex-direction: column;
+        gap: 20px;
     }
     .recom-img{
         width: 100%;
     }
+    .recom-img > p{
+        padding: 10px;
+    }
+    .recom-imgs > img{
+        width: 49%;
+    }
+    .recom-imgs{
+        display: flex;
+        flex-wrap: wrap;
+        gap: 3px;
+        margin-top: 10px;
+    }
+
     /* 相互リンク */
     .cooperate-img{
         padding-left: 5%;
@@ -1439,6 +1520,17 @@ ul li a:hover{
         padding: 0;
         margin-bottom: 20px;
     }
+    .guidance-method{
+        padding-bottom: 20px;
+    }
+    .guidance-free {
+        padding-bottom: 20px;
+    }
+    .guidance-free > a{
+        padding-left: 3%;
+        text-decoration: none;
+    }
+   
 
     /* News お知らせ */
     .news-content{
