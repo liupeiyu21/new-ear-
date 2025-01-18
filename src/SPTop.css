@@ -14,7 +14,7 @@
     gap: 5px;
     
     position: fixed;
-    top: 70px;
+    top: 55px;
     left: 3%;
     z-index: 998;
 }
@@ -26,7 +26,7 @@
 .sp-cart{
     font-size: 40px;
     position: fixed;
-    top: 60px;
+    top: 48px;
     right: 3%;
     z-index: 998;
     color: #4F4E4B;
