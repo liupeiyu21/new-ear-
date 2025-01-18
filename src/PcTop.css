@@ -151,8 +151,14 @@ h1 > img{
 .pc-categpry-old-li > a{
     color: #fff;
 }
+
+.pc-categpry-old-li:hover{
+    background-color: #e9b97f;
+}
 .pc-categpry-old-li > a:hover{
-    color: black;
+    color: #fff;
+
+ 
 }
 /* navをhoverしたら、メニューを下に展開する */
 

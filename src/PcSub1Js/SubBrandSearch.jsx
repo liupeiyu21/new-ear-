@@ -77,7 +77,7 @@ function SubBrandSearch(){
                     </div>
                 </div>
              
-                    <button class="close-button js-close-button">
+                    <button class="close-button ">
                         <span></span>
                         <span></span>
                     </button>

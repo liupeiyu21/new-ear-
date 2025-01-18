@@ -410,6 +410,9 @@
   }
 
 
+.sp-sub1-brand-search{
+    display: none;
+}
 
 
 
@@ -532,4 +535,60 @@
         top: 78%;
 
        }
+
+       /* 絞り込んみ検索 */
+       .sp-sub1-brand-search{
+        display: block;
+    }
+       .sp-close-btn{
+        width: 50px;
+        height: 50px;
+        border-radius: 50%;
+        background-color: #F08300;
+        /* text-align: center; */
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        position: relative;
+        margin: 20px auto;
+       }
+       .sp-close-btn > span{
+        position: absolute;
+        height: 2px;
+        width: 80%;
+        background-color: #fff;
+        transform-origin: center;
+       }
+       .sp-close-btn span:nth-child(1) {
+        transform: rotate(45deg) ;
+      }
+    
+      .sp-close-btn span:nth-child(2) {
+        transform: rotate(-45deg) ;
+      }
+
+    .sp-sub1-brand-search  {
+        position: fixed;
+        top: 0;
+        left: -100%;
+        z-index: 100000000;
+        transition: left 0.5s ease-in-out;
+        background-color: #fff;
+        width: 100%;
+        height: 100vh;
+        overflow: scroll;
+    }
+    .sp-sub1-brand-search.move{
+        left: 0;
+        overflow: scroll;
+    }
+
+    .spsub1search{
+        padding-left: 3%;
+        
+    }
+    .spsub1search-ul > ul{
+        list-style-type: none;
+        padding-left: 0;
+    }
 }
