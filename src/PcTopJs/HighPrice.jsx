@@ -5,6 +5,7 @@ import HeighIcon from "/pc-top-heighprice-icon.png"
 
 import HightPri from "/pc-hightprice.png"
 import "../PcTop.css" 
+import { Link } from "react-router";
 
 
 const data = ["Slide 1", "Slide 2", "Slide 3", "Slide 4","Slide 5","Slide 6","Slide 7","Slide 8"] ;
@@ -61,7 +62,9 @@ function HighPrice() {
             
         </Swiper>
         <div className="products-btn">
-            <button className="pc-products-btn">すべて見る</button>
+            <button className="pc-products-btn">
+            <Link className="to" to="/買取金額を調べる"> すべて見る</Link>  
+            </button>
         </div>
     </div>
         </>

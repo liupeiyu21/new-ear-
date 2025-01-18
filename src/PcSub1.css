@@ -153,10 +153,13 @@
     font-size: 24px;
     color: #fff;
     border-radius: 10px;
-   
+    border: #F08300;
+    box-shadow: 0 5px 1px 1px #928f8f;
 }
 .submit:hover{
     background-color: #f6a542;
+    box-shadow: 0 0px 1px 1px #928f8f;
+    transform: translate(0, 5px);
 }
 .handleReset{
    /* margin-left: 55px; */
