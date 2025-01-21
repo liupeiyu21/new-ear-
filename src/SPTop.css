@@ -60,6 +60,11 @@
     color: #fff;
     border: #F08300;
     border-radius: 3px;
+    box-shadow: 0 5px 1px 1px #928f8f;
+}
+.menu-btn1:hover{
+    box-shadow: 0 0 0 0;
+    background-color: #f6a542;
 }
 .menu-btn2{
     padding: 10px 26px;
@@ -68,6 +73,11 @@
     color: #fff;
     border: #F08300;
     border-radius: 3px;
+    box-shadow: 0 5px 1px 1px #928f8f;
+}
+.menu-btn2:hover{
+    box-shadow: 0 0 0 0;
+    background-color: #f6a542;
 }
 
 .menu-love > h3 {
