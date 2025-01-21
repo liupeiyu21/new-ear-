@@ -80,10 +80,13 @@
     white-space: nowrap;
     border-radius: 10px;
     border: #F08300;
+    box-shadow: 0 5px 1px 1px #928f8f; 
 }
 .ear-info > button:hover{
     background-color: #f6a542;
-    border: 1px #efefef solid;
+    box-shadow: 0 0 0 0;
+    transform: translate(0,5px);
+  
 }
 
 
@@ -101,11 +104,14 @@
     padding: 30px;
     margin-top: 100px;
     color: #fff;
-    font-size: 28px
+    font-size: 28px;
+
+    box-shadow: 0 5px 1px 1px #928f8f; 
 }
 .togglestep:hover{
     background-color: #f6a542;
-    
+    box-shadow: 0 0 0 0;
+    transform: translate(0,5px);
 }
 .togglesteps{
     margin-left: 20px;
@@ -164,10 +170,13 @@
     padding: 30px;
     margin-top: 100px;
     color: #fff;
-    font-size: 28px 
+    font-size: 28px;
+    box-shadow: 0 5px 1px 1px #928f8f;  
 }
 .togglesell:hover{
     background-color: #f6a542;
+    box-shadow: 0 0 0 0;
+    transform: translate(0,5px);
 }
 .togglesells{
     margin-left: 20px;
@@ -325,6 +334,7 @@
         white-space: nowrap;
         border-radius: 10px;
         border: #F08300;
+        box-shadow: 0 5px 1px 1px #928f8f;
     }
     /* 査定の手順について */
    .steps-grid{
