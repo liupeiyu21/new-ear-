@@ -4,6 +4,7 @@
 
 /* hamburgerメニュー */
 
+
 .hamburger-line{
     max-width: 35px;
     width: 10%;
@@ -41,6 +42,7 @@
     width: 90%; 
     height: 100%;
     transition: left 0.5s ease-in-out ;
+    overflow: scroll;
 }
 .menu.open{
     left: 0;
@@ -101,6 +103,7 @@
     z-index: 998; /* サイドメニューの下に表示 */
     display: none; /* 初期は非表示 */
     transition: opacity 0.3s ease; /* スムーズな表示 */
+    
   }
   
   .overlay.active {
@@ -160,7 +163,10 @@
 /*リストが増えたらULごとに追加してください*/
 #cp_menu_bar1:checked ~ #link1 li,
 #cp_menu_bar2:checked ~ #link2 li,
-#cp_menu_bar3:checked ~ #link3 li{
+#cp_menu_bar3:checked ~ #link3 li,
+#cp_menu_bar4:checked ~ #link4 li,
+#cp_menu_bar5:checked ~ #link5 li,
+#cp_menu_bar6:checked ~ #link6 li{
 	max-height: 46px;
 	opacity: 1;
 }
@@ -213,6 +219,40 @@
         font-size: 14px;
     }
   
+
+    /* ハンバーガーメニューの実店舗情報 */
+
+    .sp-shop > h3{
+        background-color: #FCF9EB;
+        padding-top: 5px;
+        padding-bottom: 5px;
+        padding-left: 3%;
+        margin-bottom: 10px;
+    }
+    .sp-shop > h4{
+        margin-top: 0;
+        background-color: #F08300;
+        color: #fff;
+        padding-left: 3%;
+        padding-top: 3px;
+        padding-bottom: 3px;
+    }
+    .sp-shop-infors{
+        display: flex;
+        justify-content: space-between;
+        padding-left: 3%;
+        padding-right: 3%;
+    }
+    .sp-2{
+        margin-top: 20px;
+    }
+    .sns{
+        display: flex;
+        justify-content: space-between;
+        padding-left: 3%;
+        padding-right: 3%;
+    }
+
 
 
 

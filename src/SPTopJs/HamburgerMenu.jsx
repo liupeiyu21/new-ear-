@@ -4,7 +4,11 @@ import { BsCart } from "react-icons/bs";
 import { Link } from 'react-router';
 import { TfiHeart } from "react-icons/tfi";
 
-
+import Tokyo from "/tokyo-1.png"
+import SpBlog from "/sp-blog.png"
+import SpX from "/sp-x.png"
+import SpYu from "/sp-yu.png"
+import SpIns from "/sp-ins.png"
 
 function HamburgerMenu(){
     const [ isOpen, setIsOpen] = useState(false);
@@ -12,8 +16,14 @@ function HamburgerMenu(){
     // const toggleMenu = () => {
     //     setIsOpen(!isOpen);
     // }
-    const toggleMenu = () => setIsOpen(true);
-    const closeMenu = () => setIsOpen(false);
+    const toggleMenu = () => {
+        setIsOpen(true);
+        document.body.style.overflow = "hidden";
+    }
+    const closeMenu = () => {
+        setIsOpen(false);
+        document.body.style.overflow = "";
+    }
     // const openModal = () => setIsOpen(true);
     // const closeModal = () => setIsOpen(false);
   
@@ -79,10 +89,88 @@ function HamburgerMenu(){
                             <li><a href="">買取Q＆A</a></li>
                         </ul>
 
+                        <label htmlFor="cp_menu_bar4">修理・自作</label>
+                        <input type="radio" name="radio" id="cp_menu_bar4" className="accordion" />
+                        <ul id="link4">
+                            <li><a href="">link01</a></li>
+                            <li><a href="">link02</a></li>
+                            <li><a href="">link03</a></li>
+                            <li><a href="">link04</a></li>
+                        </ul>
+
+                        <label htmlFor="cp_menu_bar5">カスタムIEM</label>
+                        <input type="radio" name="radio" id="cp_menu_bar5" className="accordion" />
+                        <ul id="link5">
+                            <li><a href="">link01</a></li>
+                            <li><a href="">link02</a></li>
+                        </ul>
                     </div>
-                                            
-               
+                    <div className='sp-shop'>
+                        <h3>店舗</h3>
+                        <h4>東京都</h4>
+                        <div className='sp-shop-infors'>
+                            <img src={Tokyo} alt="実店舗の写真" />
+                            <div className='sp-shop-infor'>
+                                <p>秋葉原店　本館</p>
+                                <p>営業時間　11:00-20:00</p>
+                            </div>
+                        </div>
+                        <div className='sp-shop-infors sp-2'>
+                            <img src={Tokyo} alt="実店舗の写真" />
+                            <div className='sp-shop-infor'>
+                                <p>秋葉原店　本館</p>
+                                <p>営業時間　11:00-20:00</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div className='sp-shop sp-2'>
+                        <h4>大阪府</h4>
+                        <div className='sp-shop-infors'>
+                            <img src={Tokyo} alt="実店舗の写真" />
+                            <div className='sp-shop-infor'>
+                                <p>秋葉原店　本館</p>
+                                <p>営業時間　11:00-20:00</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div className='sp-shop sp-2'>
+                        <h4>愛知県</h4>
+                        <div className='sp-shop-infors'>
+                            <img src={Tokyo} alt="実店舗の写真" />
+                            <div className='sp-shop-infor'>
+                                <p>秋葉原店　本館</p>
+                                <p>営業時間　11:00-20:00</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div className='sp-shop sp-2'>
+                        <h4>宮城県</h4>
+                        <div className='sp-shop-infors'>
+                            <img src={Tokyo} alt="実店舗の写真" />
+                            <div className='sp-shop-infor'>
+                                <p>秋葉原店　本館</p>
+                                <p>営業時間　11:00-20:00</p>
+                            </div>
+                        </div>
+                    </div>
+                    <h3>ご利用ガイド</h3>
+                    <h3>お問い合わせ</h3>
+                    <div>
+                        <h3>SNSアイテム</h3>
+                        <div className='sns'>
+                            <img src={SpBlog} alt="blog" />
+                            <img src={SpYu} alt="youtube" />
+                            <img src={SpX} alt="X" />
+                            <img src={SpIns} alt="ins" />
+                        </div>
+                    </div>
+                   
+                  
                 </div>
+                
         </div>
         {/* { isMenu && (
         {huamburgerMenuList.map((Humburger) => (
