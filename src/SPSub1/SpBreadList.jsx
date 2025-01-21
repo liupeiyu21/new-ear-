@@ -13,12 +13,12 @@ function SpBreadList() {
 
     const toggleleft = () => {
         setIsOpen(true);
-        document.body.style.overflow = "hidden";
+        // document.body.style.overflow = "hidden";
     
     }
     const closeleft = () => {
         setIsOpen(false);
-        document.body.style.overflow = "";
+        // document.body.style.overflow = "";
     }
 
     return(
