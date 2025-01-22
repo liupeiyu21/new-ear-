@@ -348,6 +348,7 @@ h1 > img{
   }
   .fastview-swiper > .swiper > .swiper-wrapper > .swiper-slide > img{
     width: 100%;
+    cursor: pointer;
   }
 
     
@@ -391,6 +392,7 @@ h1 > img{
 .recentlycheck > .swiper > .swiper-wrapper > .swiper-slide{
     padding: 10px;
     border-radius: 10px;
+    cursor: pointer;
 }
 .recentlycheck > .swiper > .swiper-wrapper > .swiper-slide:hover{
     /* color: #F08300; */
@@ -503,6 +505,7 @@ h1 > img{
   .item-card{
     margin-bottom: 30px;
     padding: 5px 10px;
+    cursor: pointer;
   }
 
   .item-card:hover{
@@ -614,6 +617,7 @@ h1 > img{
 .heighprice > .swiper > .swiper-wrapper > .swiper-slide{
     padding: 10px;
     border-radius: 10px;
+    cursor: pointer;
 }
 .heigh-more{
     display: flex;
@@ -679,7 +683,8 @@ h1 > img{
 .staff-review-category > span{
     margin: 0 30px;
     font-size: 14px;
-    color: #b9b5b5;;
+    color: #b9b5b5;
+    cursor: pointer;
 }
 .staff-review-category > span.review{
     color: #F08300;
@@ -705,6 +710,7 @@ h1 > img{
     border-radius: 10px;
     box-shadow: 0 10px 10px rgba(0, 0, 0, 0.15);
     width: 100%;
+    cursor: pointer;
 }
 .staff-btns{
     text-align: center;
@@ -751,6 +757,7 @@ h1 > img{
     box-shadow: 0 10px 10px rgba(0, 0, 0, 0.15);
     margin-top: 10px;
     width: 100%;
+    cursor: pointer;
 }
 .users-card > img{
     border-radius: 10px;
@@ -834,6 +841,7 @@ h1 > img{
 .reading-item > .swiper > .swiper-wrapper > .swiper-slide{
     padding: 10px;
     border-radius: 10px;
+    cursor: pointer;
 }
 
 
@@ -868,6 +876,7 @@ h1 > img{
 } */
  .recom-img{
     width: 48%;
+    cursor: pointer;
  }
  .recom-img img{
     width: 100%;
@@ -894,6 +903,7 @@ h1 > img{
 .recom-imgs img{
     width: 30%;
     border-radius: 10px;
+    cursor: pointer;
 }
 .recom-imgs > img:hover{
     transform: scale(1.05);
@@ -1112,6 +1122,11 @@ ul li a:hover{
 }
 .last-content > p{
     line-height: 15px;
+}
+
+/* 上部に戻るボタン */
+.scroll-top{
+    cursor: pointer;
 }
 
 /* spの最近チェックの見出し上のicon */

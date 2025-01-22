@@ -155,6 +155,7 @@
     border-radius: 10px;
     border: #F08300;
     box-shadow: 0 5px 1px 1px #928f8f;
+    cursor: pointer;
 }
 .submit:hover{
     background-color: #f6a542;

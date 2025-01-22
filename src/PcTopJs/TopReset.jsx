@@ -28,7 +28,7 @@ function ScrollToTopButton() {
     };
 
     return (
-        <div>
+        <div className="scroll-top">
             {isVisible && (
                 <img 
                 className="top-reset"
