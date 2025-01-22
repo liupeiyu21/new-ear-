@@ -1598,3 +1598,12 @@ ul li a:hover{
    }
 
 }
+
+@media screen and (min-width:1477px) {
+    .item-list{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        gap: 4%;
+      }
+}
