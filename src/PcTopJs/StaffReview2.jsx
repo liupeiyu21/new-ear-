@@ -62,9 +62,13 @@ function StaffReview2() {
                         </div>
                         <p className="reviews-title">{review.title}</p>
                         <p className="reviews-sentence">{review.sentence}</p>
-                        <img src={review.icon} alt="アイコンです" />
-                        <p className="staff-name">{review.staffname}</p>
-                        <p className="reviews-address">{review.address}</p>
+                        <div className="reviews-icons-infor">
+                          <img src={review.icon} alt="アイコンです" />
+                          <div className="reviews-infors">
+                            <p className="staff-name">{review.staffname}</p>
+                            <p className="reviews-address">{review.address}</p>
+                          </div>
+                        </div>
                     </div>
                 ))
                 }
