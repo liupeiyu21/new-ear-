@@ -9,28 +9,28 @@ const usersItems = [
         brand: "ブランド名",
         title: "商品の名前",
         category: "カテゴリー分類",
-        description: "スタッフのレビュー文",
+        description: "ユーザーのレビュー文",
         usersName: "ユーザーのアカウント名",     
     },
     {
         brand: "ブランド名",
         title: "商品の名前",
         category: "カテゴリー分類",
-        description: "スタッフのレビュー文",
+        description: "ユーザーのレビュー文",
         usersName: "ユーザーのアカウント名",     
     },
     {
         brand: "ブランド名",
         title: "商品の名前",
         category: "カテゴリー分類",
-        description: "スタッフのレビュー文",
+        description: "ユーザーのレビュー文",
         usersName: "ユーザーのアカウント名",     
     },
     {
         brand: "ブランド名",
         title: "商品の名前",
         category: "カテゴリー分類",
-        description: "スタッフのレビュー文",
+        description: "ユーザーのレビュー文",
         usersName: "ユーザーのアカウント名",     
     }
 
