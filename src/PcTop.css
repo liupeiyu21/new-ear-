@@ -428,6 +428,9 @@ h1 > img{
     color: #b9b4b4;
 }
 .check-status{
+    margin-top: 10px;
+    padding: 2px 3px;
+    border-radius: 2px;
     background-color: #295c8f;
     width: 15%;
     color: #fff;
@@ -528,6 +531,8 @@ h1 > img{
   }
   .statusNew{
     margin-top: 10px;
+    padding: 2px 4px;
+    border-radius: 2px;
     background-color: #295c8f;
     width: 17%;
     text-align: center;
@@ -537,6 +542,9 @@ h1 > img{
     
   }
   .statusUsed{
+    margin-top: 10px;
+    padding: 2px 4px;
+    border-radius: 2px;
     background-color: #F08300;
     width: 17%;
     text-align: center;
@@ -545,6 +553,9 @@ h1 > img{
     margin-bottom: 0;
   }
   .statusRanking{
+    margin-top: 10px;
+    padding: 2px 4px;
+    border-radius: 2px;
     background-color: #e53935;
     width: 17%;
     text-align: center;
