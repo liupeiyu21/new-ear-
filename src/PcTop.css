@@ -759,6 +759,7 @@ h1 > img{
 
 
 /* User review　ユーザーのレビュー文です */
+
 .users-list{
     display: flex;
     justify-content: space-between;
@@ -770,17 +771,20 @@ h1 > img{
     font-weight: bold;
 }
 .users-title{
-    display: flex;
-    justify-content: space-between;
+    /* display: flex; */
+    /* justify-content: space-between; */
   
     margin-top: 10px;
     margin-bottom: 30px;
     font-size: 14px;
-    color: #9b9794;
+  
     /* border-top: 1px #efefef solid;
     border-bottom: 1px #efefef solid; */
-    /* margin-left: 5%; */
+    
    
+}
+.users-span{
+    margin-left: 5%;
 }
 .users-title  > p{
     padding-right: 5%;
@@ -807,7 +811,7 @@ h1 > img{
 }
 .users-so{
     margin-bottom: 30px;
-   
+  
 }
 .users-btns{
     text-align: center;
@@ -886,6 +890,7 @@ h1 > img{
     font-size: 14px;
     color: #928f8f;
 }
+
 
 
 
@@ -1654,3 +1659,5 @@ ul li a:hover{
 @media screen and (min-width:768px) and (max-width:960px) {
      
 } */
+
+
