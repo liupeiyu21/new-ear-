@@ -6,112 +6,112 @@
                 "brand": "ブランド名", 
                 "name": "商品の名前", 
                 "status": "買取上限金額",
-                "price": "1000"
+                "price": "10,000"
             },
             {
                 "img": "/recommendation.png",
                 "brand": "ブランド名", 
                 "name": "商品の名前", 
                 "status": "買取上限金額",
-                "price": "1200"
+                "price": "12,000"
             },
             {
                 "img": "/recommendation.png",
                 "brand": "ブランド名", 
                 "name": "商品の名前", 
                 "status": "買取上限金額",
-                "price": "1300"
+                "price": "13,000"
             },
             {
                 "img": "/recommendation.png",
                 "brand": "ブランド名", 
                 "name": "商品の名前", 
                 "status": "買取上限金額",
-                "price": "1400"
+                "price": "14,000"
             },
             {
                 "img": "/recommendation.png",
                 "brand": "ブランド名", 
                 "name": "商品の名前", 
                 "status": "買取上限金額",
-                "price": "1500"
+                "price": "15,000"
             },
             {
                 "img": "/recommendation.png",
                 "brand": "ブランド名", 
                 "name": "商品の名前", 
                 "status": "買取上限金額",
-                "price": "1600"
+                "price": "16,000"
             },
             {
                 "img": "/recommendation.png",
                 "brand": "ブランド名", 
                 "name": "商品の名前", 
                 "status": "買取上限金額",
-                "price": "1700"
+                "price": "17,000"
             },
             {
                 "img": "/recommendation.png",
                 "brand": "ブランド名", 
                 "name": "商品の名前", 
                 "status": "買取上限金額",
-                "price": "1800"
+                "price": "18,000"
             },
             {
                 "img": "/recommendation.png",
                 "brand": "ブランド名", 
                 "name": "商品の名前", 
                 "status": "買取上限金額",
-                "price": "1900"
+                "price": "19,000"
             },
             {
                 "img": "/recommendation.png",
                 "brand": "ブランド名", 
                 "name": "商品の名前", 
                 "status": "買取上限金額",
-                "price": "1000"
+                "price": "10,000"
             },
             {
                 "img": "/recommendation.png",
                 "brand": "ブランド名", 
                 "name": "商品の名前", 
                 "status": "買取上限金額",
-                "price": "1100"
+                "price": "10,100"
             },
             {
                 "img": "/recommendation.png",
                 "brand": "ブランド名", 
                 "name": "商品の名前", 
                 "status": "買取上限金額",
-                "price": "1200"
+                "price": "10,200"
             },
             {
                 "img": "/recommendation.png",
                 "brand": "ブランド名", 
                 "name": "商品の名前", 
                 "status": "買取上限金額",
-                "price": "1300"
+                "price": "10,300"
             },
             {
                 "img": "/recommendation.png",
                 "brand": "ブランド名", 
                 "name": "商品の名前", 
                 "status": "買取上限金額",
-                "price": "1400"
+                "price": "10,400"
             },
             {
                 "img": "/recommendation.png",
                 "brand": "ブランド名", 
                 "name": "商品の名前", 
                 "status": "買取上限金額",
-                "price": "1500"
+                "price": "15,000"
             },
             {
                 "img": "/recommendation.png",
                 "brand": "ブランド名", 
                 "name": "商品の名前", 
                 "status": "買取上限金額",
-                "price": "1600"
+                "price": "16,000"
             }
         ],
         "Popularity": [
@@ -120,28 +120,28 @@
                 "brand": "ブランド名", 
                 "name": "商品の名前", 
                 "status": "買取上限金額",
-                "price": "9000"
+                "price": "90,000"
             },
             {
                 "img": "/Popularity.png",
                 "brand": "ブランド名", 
                 "name": "商品の名前", 
                 "status": "買取上限金額",
-                "price": "120000"
+                "price": "120,000"
             },
             {
                 "img": "/Popularity.png",
                 "brand": "ブランド名", 
                 "name": "商品の名前", 
                 "status": "買取上限金額",
-                "price": "13000"
+                "price": "13,000"
             },
             {
                 "img": "/Popularity.png",
                 "brand": "ブランド名", 
                 "name": "商品の名前", 
                 "status": "買取上限金額",
-                "price": "14000"
+                "price": "14,000"
             },
             {
                 "img": "/Popularity.png",
@@ -155,77 +155,77 @@
                 "brand": "ブランド名", 
                 "name": "商品の名前", 
                 "status": "買取上限金額",
-                "price": "160000"
+                "price": "160,000"
             },
             {
                 "img": "/Popularity.png",
                 "brand": "ブランド名", 
                 "name": "商品の名前", 
                 "status": "買取上限金額",
-                "price": "170000"
+                "price": "170,000"
             },
             {
                 "img": "/Popularity.png",
                 "brand": "ブランド名", 
                 "name": "商品の名前", 
                 "status": "買取上限金額",
-                "price": "180000"
+                "price": "180,000"
             },
             {
                 "img": "/Popularity.png",
                 "brand": "ブランド名", 
                 "name": "商品の名前", 
                 "status": "買取上限金額",
-                "price": "190000"
+                "price": "190,000"
             },
             {
                 "img": "/Popularity.png",
                 "brand": "ブランド名", 
                 "name": "商品の名前", 
                 "status": "買取上限金額",
-                "price": "100000"
+                "price": "100,000"
             },
             {
                 "img": "/Popularity.png",
                 "brand": "ブランド名", 
                 "name": "商品の名前", 
                 "status": "買取上限金額",
-                "price": "110000"
+                "price": "110,000"
             },
             {
                 "img": "/Old-products.png",
                 "brand": "ブランド名", 
                 "name": "商品の名前", 
                 "status": "買取上限金額",
-                "price": "120000"
+                "price": "120,000"
             },
             {
                 "img": "/Popularity.png",
                 "brand": "ブランド名", 
                 "name": "商品の名前", 
                 "status": "買取上限金額",
-                "price": "130000"
+                "price": "130,000"
             },
             {
                 "img": "/Popularity.png",
                 "brand": "ブランド名", 
                 "name": "商品の名前", 
                 "status": "買取上限金額",
-                "price": "140000"
+                "price": "140,000"
             },
             {
                 "img": "/Popularity.png",
                 "brand": "ブランド名", 
                 "name": "商品の名前", 
                 "status": "買取上限金額",
-                "price": "150000"
+                "price": "150,000"
             },
             {
                 "img": "/Popularity.png",
                 "brand": "ブランド名", 
                 "name": "商品の名前", 
                 "status": "買取上限金額",
-                "price": "1600"
+                "price": "10,600"
             }
         ],
         "Highprice": [
@@ -234,112 +234,112 @@
                 "brand": "ブランド名", 
                 "name": "商品の名前", 
                 "status": "買取上限金額",
-                "price": "190000"
+                "price": "190,000"
             },
             {
                 "img": "/highprice.png",
                 "brand": "ブランド名", 
                 "name": "商品の名前", 
                 "status": "買取上限金額",
-                "price": "180000"
+                "price": "180,000"
             },
             {
                 "img": "/highprice.png",
                 "brand": "ブランド名", 
                 "name": "商品の名前", 
                 "status": "買取上限金額",
-                "price": "170000"
+                "price": "170,000"
             },
             {
                 "img": "/highprice.png",
                 "brand": "ブランド名", 
                 "name": "商品の名前", 
                 "status": "買取上限金額",
-                "price": "160000"
+                "price": "160,000"
             },
             {
                 "img": "/highprice.png",
                 "brand": "ブランド名", 
                 "name": "商品の名前", 
                 "status": "買取上限金額",
-                "price": "150000"
+                "price": "150,000"
             },
             {
                 "img": "/highprice.png",
                 "brand": "ブランド名", 
                 "name": "商品の名前", 
                 "status": "買取上限金額",
-                "price": "140000"
+                "price": "140,000"
             },
             {
                 "img": "/highprice.png",
                 "brand": "ブランド名", 
                 "name": "商品の名前", 
                 "status": "買取上限金額",
-                "price": "130000"
+                "price": "130,000"
             },
             {
                 "img": "/highprice.png",
                 "brand": "ブランド名", 
                 "name": "商品の名前", 
                 "status": "買取上限金額",
-                "price": "120000"
+                "price": "120,000"
             },
             {
                 "img": "/highprice.png",
                 "brand": "ブランド名", 
                 "name": "商品の名前", 
                 "status": "買取上限金額",
-                "price": "110000"
+                "price": "110,000"
             },
             {
                 "img": "/highprice.png",
                 "brand": "ブランド名", 
                 "name": "商品の名前", 
                 "status": "買取上限金額",
-                "price": "100000"
+                "price": "100,000"
             },
             {
                 "img": "/highprice.png",
                 "brand": "ブランド名", 
                 "name": "商品の名前", 
                 "status": "買取上限金額",
-                "price": "90000"
+                "price": "90,000"
             },
             {
                 "img": "/highprice.png",
                 "brand": "ブランド名", 
                 "name": "商品の名前", 
                 "status": "買取上限金額",
-                "price": "80000"
+                "price": "80,000"
             },
             {
                 "img": "/highprice.png",
                 "brand": "ブランド名", 
                 "name": "商品の名前", 
                 "status": "買取上限金額",
-                "price": "130000"
+                "price": "130,000"
             },
             {
                 "img": "/highprice.png",
                 "brand": "ブランド名", 
                 "name": "商品の名前", 
                 "status": "買取上限金額",
-                "price": "70000"
+                "price": "70,000"
             },
             {
                 "img": "/highprice.png",
                 "brand": "ブランド名", 
                 "name": "商品の名前", 
                 "status": "買取上限金額",
-                "price": "60000"
+                "price": "60,000"
             },
             {
                 "img": "/highprice.png",
                 "brand": "ブランド名", 
                 "name": "商品の名前", 
                 "status": "買取上限金額",
-                "price": "50000"
+                "price": "50,000"
             }
         ]
     }

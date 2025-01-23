@@ -254,17 +254,21 @@
     text-decoration: none;
 }
 .second-brand{
-    color: #707070;
+    font-size: 16px;
     text-align: left;
+    font-weight: bold;
 }
 .second-name{
-    color: #000000;
+    color: #928f8f;
+    font-size: 14px;
     font-weight: bold;
     margin-bottom: 20px;
     text-align: left;
 }
 .second-status{
     background-color: #F08300;
+    padding: 2px 4px;
+    border-radius: 2px;
     color: #fff;
     width: 100px;
     text-align: center;
@@ -274,7 +278,7 @@
     text-align: left;
     color: #e53935;
     font-weight: bold;
-    margin-top: 10px;
+    /* margin-top: 10px; */
 }
 .pape{
     margin-bottom: 50px;
