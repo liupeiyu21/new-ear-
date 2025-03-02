@@ -13,7 +13,7 @@ import 'swiper/css/pagination';
 import "../PcTop.css"
 
 // import required modules
-import { Navigation, Pagination, Mousewheel, Keyboard } from 'swiper/modules';
+import {Autoplay, Navigation, Pagination, Mousewheel, Keyboard } from 'swiper/modules';
 
 export default function FastView() {
   return (
@@ -21,7 +21,7 @@ export default function FastView() {
    
     <div className='fastview-swiper'>
       <Swiper
-        modules={[Navigation, Pagination, Mousewheel, Keyboard]}
+        modules={[Navigation, Pagination, Mousewheel, Keyboard, Autoplay]}
         breakpoints={{
             375:{
                 slidesPerView:1,
@@ -48,9 +48,15 @@ export default function FastView() {
         // pagination={true}
         mousewheel={true}
         keyboard={true}
-
+        autoplay={{
+            delay: 2500,
+            disableOnInteraction: false,
+          }}
+          speed={10000}
 
         className="mySwiper"
+
+        
       >
         <SwiperSlide>
             <img src={Swiper1} alt="バナーの画像" />

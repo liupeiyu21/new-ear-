@@ -51,11 +51,11 @@ export default function Banner() {
                 spaceBetween:15,
             }
         }}
-        autoplay={{
-            delay: 1000,
-            disableOnInteraction: false,
-          }}
-          speed={3000}
+        // autoplay={{
+        //     delay: 1000,
+        //     disableOnInteraction: false,
+        //   }}
+        //   speed={3000}
         loop = {{loop: true}}
 
       >
