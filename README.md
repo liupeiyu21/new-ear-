@@ -16,10 +16,21 @@
 ・要望：１、買取コンテンツを強化して欲しい。２、全体的なサイトリニューアルをしてほしい。
 
 # 企画階段
+![企画](./plan.png)
 
 # 時間割
+![時間割](./time.png)
 
 # 工夫したところ
+・ECサイトが頻繁な更新に対応できるよう、Reactで各要素をコンポーネント化し、メンテナンスの効率化を図りました。
+
+・React-routerを導入することで、ECサイトの複数ページ間をスムーズに遷移できるようになりました。
+
+・JSONを導入する。
+
+
+
+
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
